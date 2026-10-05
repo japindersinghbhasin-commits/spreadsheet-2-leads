@@ -1,0 +1,45 @@
+name: Daily 200 Outreach Campaign
+
+on:
+  schedule:
+    # Runs automatically every day at 09:00 UTC (even when computer is OFF)
+    - cron: '0 9 * * *'
+  # Allows you to trigger it anytime manually from your phone or browser
+  workflow_dispatch:
+
+jobs:
+  send-outreach:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install httpx
+
+      - name: Run Cold Outreach Engine
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DELAY_MIN: 40
+          DELAY_MAX: 80
+        run: |
+          python send_emails.py --send --limit 200
+
+      - name: Save and Commit Sent History
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add sent_history.csv
+          git commit -m "Auto-update sent history after daily outreach" || echo "No changes to commit"
+          git push

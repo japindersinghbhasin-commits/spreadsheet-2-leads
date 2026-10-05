@@ -1,0 +1,79 @@
+{
+  "Furniture": {
+    "liked_work": "the custom furniture pieces and workshop craftsmanship",
+    "work_noun": "craftsmanship",
+    "field_brands": "furniture",
+    "owner_title": "furniture makers and founders",
+    "field_singular": "furniture"
+  },
+  "Interior Design": {
+    "liked_work": "the residential interior projects and room transformations",
+    "work_noun": "designs",
+    "field_brands": "interior design",
+    "owner_title": "designers and studio founders",
+    "field_singular": "interior design"
+  },
+  "Architecture": {
+    "liked_work": "the contemporary architectural builds and residential projects",
+    "work_noun": "portfolio",
+    "field_brands": "architecture",
+    "owner_title": "principal architects and firm owners",
+    "field_singular": "architecture"
+  },
+  "Real Estate": {
+    "liked_work": "the luxury home tours and exclusive property listings",
+    "work_noun": "listings",
+    "field_brands": "real estate",
+    "owner_title": "brokers and agents",
+    "field_singular": "real estate"
+  },
+  "Jewelry & Luxury Goods": {
+    "liked_work": "the handcrafted jewelry pieces and collection details",
+    "work_noun": "pieces",
+    "field_brands": "fine jewelry",
+    "owner_title": "designers and founders",
+    "field_singular": "jewelry"
+  },
+  "Fashion & Leather Goods": {
+    "liked_work": "the craftsmanship behind your latest leather pieces and styling",
+    "work_noun": "creations",
+    "field_brands": "independent fashion and leather",
+    "owner_title": "founders and designers",
+    "field_singular": "lifestyle"
+  },
+  "Home Decor & Lighting": {
+    "liked_work": "the curated product aesthetics and modern decor collections",
+    "work_noun": "collection",
+    "field_brands": "home decor and lighting",
+    "owner_title": "creative directors and founders",
+    "field_singular": "home decor"
+  },
+  "Fitness & Wellness": {
+    "liked_work": "the client workout breakdowns and fitness transformations",
+    "work_noun": "programs",
+    "field_brands": "fitness and coaching",
+    "owner_title": "coaches and gym owners",
+    "field_singular": "fitness"
+  },
+  "Aesthetic & Medspa": {
+    "liked_work": "the patient transformation results and treatment demos",
+    "work_noun": "practice",
+    "field_brands": "aesthetic and wellness",
+    "owner_title": "clinic owners and doctors",
+    "field_singular": "clinical"
+  },
+  "Tattoo & Body Art": {
+    "liked_work": "the detailed tattoo pieces and custom flash art",
+    "work_noun": "artwork",
+    "field_brands": "tattoo and creative",
+    "owner_title": "artists and studio owners",
+    "field_singular": "creative"
+  },
+  "Default": {
+    "liked_work": "the creative work and projects you guys are doing",
+    "work_noun": "work",
+    "field_brands": "design and lifestyle",
+    "owner_title": "business owners and founders",
+    "field_singular": "lifestyle"
+  }
+}
