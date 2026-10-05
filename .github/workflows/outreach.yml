@@ -1,10 +1,9 @@
 name: Daily 200 Outreach Campaign
 
 on:
-  schedule:
-    # Runs automatically every day at 09:00 UTC (even when computer is OFF)
-    - cron: '0 9 * * *'
-  # Allows you to trigger it anytime manually from your phone or browser
+  # schedule:
+  #   - cron: '0 9 * * *'
+  # Manual trigger only (automatic schedule disabled upon user request)
   workflow_dispatch:
 
 jobs:
