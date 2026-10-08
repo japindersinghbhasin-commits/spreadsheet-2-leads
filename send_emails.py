@@ -77,25 +77,27 @@ def load_sent_emails(history_file=SENT_HISTORY_FILE):
     return sent
 
 def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
-    """Appends sent lead to permanent sent history so they NEVER receive an email again."""
-    file_exists = os.path.exists(history_file)
-    with open(history_file, "a", encoding="utf-8", newline="") as f:
-        fieldnames = ["Email", "Business", "First Name", "Field", "Tier", "Location", "Website", "Instagram", "Date Sent", "Status"]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if not file_exists:
-            writer.writeheader()
-        writer.writerow({
-            "Email": lead.get("Email", "").strip().lower(),
-            "Business": lead.get("Business", ""),
-            "First Name": lead.get("First Name", ""),
-            "Field": lead.get("Field", ""),
-            "Tier": lead.get("Tier", ""),
-            "Location": lead.get("Location", ""),
-            "Website": lead.get("Website", ""),
-            "Instagram": lead.get("Instagram", ""),
-            "Date Sent": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "Status": status
-        })
+    """Appends sent lead to permanent sent history and spreadsheet tracker with Date Sent, Instagram, and Followers."""
+    for filepath in [history_file, "outreach_tracking_sheet.csv"]:
+        file_exists = os.path.exists(filepath)
+        with open(filepath, "a", encoding="utf-8", newline="") as f:
+            fieldnames = ["Date Sent", "Business", "First Name", "Email", "Instagram", "Followers", "Field", "Tier", "Location", "Website", "Status"]
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow({
+                "Date Sent": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "Business": lead.get("Business", ""),
+                "First Name": lead.get("First Name", ""),
+                "Email": lead.get("Email", "").strip().lower(),
+                "Instagram": lead.get("Instagram", ""),
+                "Followers": lead.get("Followers", "Under 5k"),
+                "Field": lead.get("Field", ""),
+                "Tier": lead.get("Tier", ""),
+                "Location": lead.get("Location", ""),
+                "Website": lead.get("Website", ""),
+                "Status": status
+            })
 
 def render_email(lead, niches):
     field = lead.get("Field", "").strip()
