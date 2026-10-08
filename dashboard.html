@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2M Creative Media - Outreach Tracking Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --green: #22c55e;
+      --badge-bg: rgba(56, 189, 248, 0.1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; }
+    .container { max-width: 1400px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
+    h1 { font-size: 1.6rem; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 0.75rem; }
+    .badge-status { background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 600; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; }
+    .stat-num { font-size: 1.8rem; font-weight: 700; color: var(--accent); margin-top: 0.25rem; }
+    .stat-label { color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .toolbar { display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center; }
+    .search-bar { flex: 1; background: var(--card); border: 1px solid var(--border); padding: 0.75rem 1rem; border-radius: 8px; color: #fff; font-size: 0.95rem; outline: none; }
+    .search-bar:focus { border-color: var(--accent); }
+    .table-container { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3); }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+    th { background: #162032; padding: 1rem; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--border); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
+    td { padding: 1rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tr:hover td { background: rgba(255, 255, 255, 0.02); }
+    a { color: var(--accent); text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; color: #7dd3fc; }
+    .status-sent { background: rgba(34, 197, 94, 0.2); color: #4ade80; padding: 0.2rem 0.6rem; border-radius: 6px; font-weight: 600; font-size: 0.8rem; display: inline-block; }
+    .tag { background: #334155; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; color: #cbd5e1; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>2M Creative Media <span>📊 Outreach Tracking Sheet</span></h1>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem;">Sender: Info.2mmarketing@gmail.com | System: PAUSED</p>
+      </div>
+      <div>
+        <span class="badge-status">● Real-Time Local Sheet</span>
+      </div>
+    </header>
+
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Total Contacted</div>
+        <div class="stat-num" id="totalCount">12</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Verified Low-Reach Leads</div>
+        <div class="stat-num" style="color: #4ade80;">63 Ready</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Active Sending Daily Quota</div>
+        <div class="stat-num" style="color: #fbbf24;">Paused</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Delivery Cost</div>
+        <div class="stat-num" style="color: #38bdf8;">$0.00 / mo</div>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Search business, name, field, Instagram, or location...">
+    </div>
+
+    <div class="table-container">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Date Sent</th>
+            <th>Business</th>
+            <th>Contact</th>
+            <th>Email</th>
+            <th>Instagram Profile</th>
+            <th>Followers</th>
+            <th>Field</th>
+            <th>Location</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Populated by JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const data = [
+      { date: "2026-10-06 00:54:37", business: "Morris Bespoke", name: "Julian", email: "info@morrisbespoke.com", ig: "https://instagram.com/morrisbespoke", followers: "1,640", field: "Furniture", loc: "London UK", status: "Sent" },
+      { date: "2026-10-06 00:55:44", business: "Seven Star Lux", name: "Team", email: "info@sevenstarlux.com.au", ig: "https://sevenstarlux.com.au", igLabel: "Website Only", followers: "N/A", field: "Luxury Furniture", loc: "Melbourne Australia", status: "Sent" },
+      { date: "2026-10-06 00:56:54", business: "Archco Interiors", name: "Georgia", email: "interiors@archco.co.uk", ig: "https://instagram.com/archcointeriors", followers: "2,380", field: "Interior Design", loc: "London UK", status: "Sent" },
+      { date: "2026-10-06 01:38:03", business: "Prestige Prime Estates", name: "Sarah", email: "sarah@prestigeprime.com", ig: "#", igLabel: "Parked Domain", followers: "N/A", field: "Real Estate", loc: "Miami USA", status: "Sent" },
+      { date: "2026-10-06 01:38:52", business: "Maison Gemme Fine Jewelry", name: "Claire", email: "claire@maisongemme.com", ig: "https://instagram.com/maisongemme", followers: "2", field: "Jewelry & Luxury Goods", loc: "Paris & London", status: "Sent" },
+      { date: "2026-10-06 01:39:49", business: "Lumiere Aesthetic Clinic", name: "Rachel", email: "rachel@lumiereclinic.co.uk", ig: "https://instagram.com/lumiereclinicuk", followers: "4,072", field: "Aesthetic & Medspa", loc: "Manchester & Cheshire UK", status: "Sent" },
+      { date: "2026-10-06 01:40:43", business: "Apex Athletic Performance", name: "Marcus", email: "marcus@apexperformance.com", ig: "#", igLabel: "Private Facility", followers: "N/A", field: "Fitness & Wellness", loc: "Los Angeles USA", status: "Sent" },
+      { date: "2026-10-06 01:41:51", business: "Hardgraft Luxury Leather Goods", name: "Liam", email: "support@hardgraft.com", ig: "https://instagram.com/hardgraft", followers: "40K", field: "Fashion & Leather Goods", loc: "London & Vienna", status: "Sent" },
+      { date: "2026-10-06 01:43:00", business: "Kanso Design Collective", name: "Oliver", email: "oliver@kansodesign.de", ig: "https://instagram.com/kansodesign", followers: "116", field: "Home Decor & Lighting", loc: "Berlin Germany", status: "Sent" },
+      { date: "2026-10-06 01:44:11", business: "Black Anchor Tattoo Collective", name: "Alex", email: "alex@blackanchortattoo.com", ig: "https://instagram.com/blackanchortattoo", followers: "5,415", field: "Tattoo & Body Art", loc: "Los Angeles USA", status: "Sent" },
+      { date: "2026-10-06 01:45:21", business: "Custom Furniture Design", name: "Fabian", email: "fabian@customfurnituredesign.com.au", ig: "https://instagram.com/customfurnituredesign", followers: "2,365", field: "Furniture", loc: "Sydney Australia", status: "Sent" },
+      { date: "2026-10-06 02:43:24", business: "Bang Bang Tattoo (Press Desk)", name: "Keith", email: "press@bangbangforever.com", ig: "https://instagram.com/bangbangnyc", followers: "2M", field: "Tattoo & Body Art", loc: "New York USA", status: "Sent" }
+    ];
+
+    function render(rows) {
+      const tbody = document.getElementById("tableBody");
+      tbody.innerHTML = "";
+      rows.forEach(r => {
+        const tr = document.createElement("tr");
+        const igDisplay = r.ig.startsWith("http") 
+          ? `<a href="${r.ig}" target="_blank">🔗 ${r.ig.replace("https://instagram.com/", "@")}</a>` 
+          : `<span style="color:#64748b;">${r.igLabel || "N/A"}</span>`;
+        tr.innerHTML = `
+          <td style="color:#94a3b8; font-size:0.8rem; font-family:monospace;">${r.date}</td>
+          <td style="font-weight:600; color:#fff;">${r.business}</td>
+          <td>${r.name}</td>
+          <td><span style="color:#cbd5e1; font-size:0.85rem;">${r.email}</span></td>
+          <td>${igDisplay}</td>
+          <td><span class="tag" style="color:#38bdf8; font-weight:600;">${r.followers}</span></td>
+          <td><span class="tag">${r.field}</span></td>
+          <td style="color:#94a3b8;">${r.loc}</td>
+          <td><span class="status-sent">${r.status}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+      document.getElementById("totalCount").innerText = rows.length;
+    }
+
+    render(data);
+
+    document.getElementById("searchInput").addEventListener("input", (e) => {
+      const term = e.target.value.toLowerCase();
+      const filtered = data.filter(r => 
+        r.business.toLowerCase().includes(term) ||
+        r.name.toLowerCase().includes(term) ||
+        r.email.toLowerCase().includes(term) ||
+        r.field.toLowerCase().includes(term) ||
+        r.loc.toLowerCase().includes(term) ||
+        r.ig.toLowerCase().includes(term)
+      );
+      render(filtered);
+    });
+  </script>
+</body>
+</html>
