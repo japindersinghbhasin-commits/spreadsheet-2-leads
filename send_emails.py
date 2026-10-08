@@ -96,8 +96,30 @@ def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
                 "Tier": lead.get("Tier", ""),
                 "Location": lead.get("Location", ""),
                 "Website": lead.get("Website", ""),
-                "Status": status
-            })
+    # Post directly to Google Sheet if Webhook URL is set
+    webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK_URL", "").strip()
+    if webhook_url:
+        try:
+            import urllib.request, json
+            payload = json.dumps({
+                "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "business": lead.get("Business", ""),
+                "name": lead.get("First Name", ""),
+                "email": lead.get("Email", "").strip().lower(),
+                "instagram": lead.get("Instagram", ""),
+                "followers": lead.get("Followers", "Under 5k"),
+                "field": lead.get("Field", ""),
+                "tier": lead.get("Tier", ""),
+                "location": lead.get("Location", ""),
+                "website": lead.get("Website", ""),
+                "status": status
+            }).encode("utf-8")
+            req = urllib.request.Request(webhook_url, data=payload, headers={"Content-Type": "application/json"})
+            urllib.request.urlopen(req, timeout=10)
+            print("  [✓] Synced live to Google Sheet!")
+        except Exception as e:
+            print(f"  [!] Note: Google Sheet sync skipped: {e}")
+
 
 def render_email(lead, niches):
     field = lead.get("Field", "").strip()
