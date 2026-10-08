@@ -46,7 +46,10 @@ def load_env(env_path=ENV_FILE):
                 line = line.strip()
                 if line and not line.startswith("#") and "=" in line:
                     key, val = line.split("=", 1)
-                    config[key.strip()] = val.strip().strip('"').strip("'")
+                    k = key.strip()
+                    v = val.strip().strip('"').strip("'")
+                    config[k] = v
+                    os.environ[k] = v
     return config
 
 def load_niches(niches_file=NICHES_FILE):
@@ -77,30 +80,55 @@ def load_sent_emails(history_file=SENT_HISTORY_FILE):
     return sent
 
 def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
-    """Appends sent lead to permanent sent history and spreadsheet tracker with Date Sent, Instagram, and Followers."""
-    for filepath in [history_file, "outreach_tracking_sheet.csv"]:
-        file_exists = os.path.exists(filepath)
-        with open(filepath, "a", encoding="utf-8", newline="") as f:
-            fieldnames = ["Date Sent", "Business", "First Name", "Email", "Instagram", "Followers", "Field", "Tier", "Location", "Website", "Status"]
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            if not file_exists:
-                writer.writeheader()
-            writer.writerow({
-                "Date Sent": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                "Business": lead.get("Business", ""),
-                "First Name": lead.get("First Name", ""),
-                "Email": lead.get("Email", "").strip().lower(),
-                "Instagram": lead.get("Instagram", ""),
-                "Followers": lead.get("Followers", "Under 5k"),
-                "Field": lead.get("Field", ""),
-                "Tier": lead.get("Tier", ""),
-                "Location": lead.get("Location", ""),
-                "Website": lead.get("Website", ""),
-                "Status": status
-            })
+    """Records sent lead. Only successful 'Sent' leads are logged to outreach tracking sheet and Google Sheet."""
+    # 1. Always record in sent_history so we never email this address again
+    file_exists = os.path.exists(history_file)
+    with open(history_file, "a", encoding="utf-8", newline="") as f:
+        fieldnames = ["Date Sent", "Business", "First Name", "Email", "Instagram", "Followers", "Field", "Tier", "Location", "Website", "Status"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        if not file_exists:
+            writer.writeheader()
+        writer.writerow({
+            "Date Sent": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "Business": lead.get("Business", ""),
+            "First Name": lead.get("First Name", ""),
+            "Email": lead.get("Email", "").strip().lower(),
+            "Instagram": lead.get("Instagram", ""),
+            "Followers": lead.get("Followers", "Under 5k"),
+            "Field": lead.get("Field", ""),
+            "Tier": lead.get("Tier", ""),
+            "Location": lead.get("Location", ""),
+            "Website": lead.get("Website", ""),
+            "Status": status
+        })
 
-    # Post directly to Google Sheet if Webhook URL is set
-    webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK_URL", "").strip()
+    # 2. Only record successful SENT leads to tracking sheet and Google Sheet
+    if status != "Sent":
+        return
+
+    # Append to local tracking sheet
+    file_exists = os.path.exists("outreach_tracking_sheet.csv")
+    with open("outreach_tracking_sheet.csv", "a", encoding="utf-8", newline="") as f:
+        fieldnames = ["Date Sent", "Business", "First Name", "Email", "Instagram", "Followers", "Field", "Tier", "Location", "Website", "Status"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        if not file_exists:
+            writer.writeheader()
+        writer.writerow({
+            "Date Sent": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "Business": lead.get("Business", ""),
+            "First Name": lead.get("First Name", ""),
+            "Email": lead.get("Email", "").strip().lower(),
+            "Instagram": lead.get("Instagram", ""),
+            "Followers": lead.get("Followers", "Under 5k"),
+            "Field": lead.get("Field", ""),
+            "Tier": lead.get("Tier", ""),
+            "Location": lead.get("Location", ""),
+            "Website": lead.get("Website", ""),
+            "Status": "Sent"
+        })
+
+    # Post directly to Google Sheet
+    webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK_URL", "").strip() or load_env().get("GOOGLE_SHEET_WEBHOOK_URL", "").strip()
     if webhook_url:
         try:
             import urllib.request, json
@@ -115,7 +143,7 @@ def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
                 "tier": lead.get("Tier", ""),
                 "location": lead.get("Location", ""),
                 "website": lead.get("Website", ""),
-                "status": status
+                "status": "Sent"
             }).encode("utf-8")
 
             class AppScriptRedirectHandler(urllib.request.HTTPRedirectHandler):
@@ -125,7 +153,7 @@ def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
             opener = urllib.request.build_opener(AppScriptRedirectHandler)
             req = urllib.request.Request(webhook_url, data=payload, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
             opener.open(req, timeout=15)
-            print("  [✓] Synced live to Google Sheet!")
+            print("  [+] Synced live to Google Sheet!")
         except Exception as e:
             print(f"  [!] Note: Google Sheet sync skipped: {e}")
 
@@ -239,7 +267,7 @@ def send_campaign(limit=200):
         print("Please copy '.env.example' to '.env' and enter your GMAIL_ADDRESS and GMAIL_APP_PASSWORD.")
         return
 
-    batch = get_unsent_batch(limit=limit)
+    batch = get_unsent_batch(limit=limit * 3)
     if not batch:
         print("\n[!] No unsent leads available. All leads have already received an email.")
         return
@@ -249,7 +277,7 @@ def send_campaign(limit=200):
     delay_max = int(config.get("DELAY_MAX", 80))
 
     print(f"\n[*] Starting cold outreach campaign...")
-    print(f"[*] Target for today: {len(batch)} emails (balanced across fields)")
+    print(f"[*] Target for today: {limit} emails delivered (balanced across fields)")
     print(f"[*] Sender: {gmail_user}")
     print(f"[*] Deduplication: Active (Logged to {SENT_HISTORY_FILE})")
     print(f"[*] Delay between sends: {delay_min}s - {delay_max}s\n")
@@ -266,14 +294,16 @@ def send_campaign(limit=200):
         return
 
     sent_count = 0
-    for i, lead in enumerate(batch, 1):
+    for lead in batch:
+        if sent_count >= limit:
+            break
         to_email = lead.get("Email", "").strip()
         if not to_email:
             continue
 
         # Authenticity / DNS check
         if not is_domain_valid(to_email):
-            print(f"[{i}/{len(batch)}] SKIPPED (Invalid/Dead Domain) -> {to_email}")
+            print(f"[*] SKIPPED (Invalid/Dead Domain) -> {to_email} (Auto-replacing with next valid lead)")
             record_sent_email(lead, status="Skipped: Invalid Domain")
             continue
 
@@ -288,13 +318,14 @@ def send_campaign(limit=200):
             server.sendmail(gmail_user, to_email, msg.as_string())
             sent_count += 1
             record_sent_email(lead, status="Sent")
-            print(f"[{i}/{len(batch)}] SENT -> {lead.get('Business')} ({to_email}) | Field: {lead.get('Field')} | Name: {lead.get('First Name')}")
+            print(f"[{sent_count}/{limit}] SENT -> {lead.get('Business')} ({to_email}) | Field: {lead.get('Field')} | Name: {lead.get('First Name')}")
         except Exception as err:
             print(f"[!] FAILED sending to {to_email}: {err}")
             record_sent_email(lead, status=f"Failed: {err}")
+            continue
 
         # Natural delay between emails to protect sender inbox health
-        if i < len(batch):
+        if sent_count < limit:
             wait_time = random.randint(delay_min, delay_max)
             print(f"    -> Pausing {wait_time}s to maintain high inbox deliverability...")
             time.sleep(wait_time)
