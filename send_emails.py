@@ -96,6 +96,9 @@ def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
                 "Tier": lead.get("Tier", ""),
                 "Location": lead.get("Location", ""),
                 "Website": lead.get("Website", ""),
+                "Status": status
+            })
+
     # Post directly to Google Sheet if Webhook URL is set
     webhook_url = os.environ.get("GOOGLE_SHEET_WEBHOOK_URL", "").strip()
     if webhook_url:
@@ -114,8 +117,14 @@ def record_sent_email(lead, status="Sent", history_file=SENT_HISTORY_FILE):
                 "website": lead.get("Website", ""),
                 "status": status
             }).encode("utf-8")
-            req = urllib.request.Request(webhook_url, data=payload, headers={"Content-Type": "application/json"})
-            urllib.request.urlopen(req, timeout=10)
+
+            class AppScriptRedirectHandler(urllib.request.HTTPRedirectHandler):
+                def redirect_request(self, req, fp, code, msg, headers, newurl):
+                    return urllib.request.Request(newurl, headers={"User-Agent": "Mozilla/5.0"})
+
+            opener = urllib.request.build_opener(AppScriptRedirectHandler)
+            req = urllib.request.Request(webhook_url, data=payload, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+            opener.open(req, timeout=15)
             print("  [✓] Synced live to Google Sheet!")
         except Exception as e:
             print(f"  [!] Note: Google Sheet sync skipped: {e}")
