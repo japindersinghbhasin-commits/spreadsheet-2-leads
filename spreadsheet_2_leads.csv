@@ -1,11 +1,48 @@
-Date Discovered,Business,First Name,Verified Email,Instagram,Followers,Field,Tier,Location,Website,Status
-2026-10-09 14:45:00,Dovetailors Workshop,David,info@dovetailors.co.uk,@dovetailorsfurniture,2,200,Furniture,Local,Leeds UK,https://dovetailors.co.uk,Active Lead
-2026-10-09 14:45:00,Wilfords Boutique Estates,Geoff,info@wilfords.com,@wilfordslondon,2,850,Real Estate,Local,London UK,https://wilfords.com,Active Lead
-2026-10-09 14:45:00,Raw Edge Furniture,Mark,sales@rawedgefurniture.com.au,@rawedgefurniture,2,800,Furniture,Local,Sydney Australia,https://rawedgefurniture.com.au,Active Lead
-2026-10-09 14:45:00,Plaza Estates,Cyril,post@plazaestates.co.uk,@plazaestates,3,108,Real Estate,Local,London UK,https://plazaestates.co.uk,Active Lead
-2026-10-09 14:45:00,The Glasshouse Clinic,Alison,info@theglasshouseclinic.co.uk,@glasshouse_clinic,2,426,Aesthetic & Medspa,Local,London UK,https://theglasshouseclinic.co.uk,Active Lead
-2026-10-09 14:45:00,Maskells Prime Kensington,Charles,chelsea@maskells.com,@maskellsea,4,937,Real Estate,Local,London UK,https://maskells.com,Active Lead
-2026-10-09 14:45:00,McRostie Leather Scotland,Alasdair,info@mcrostie.co.uk,@mcrostiescotland,1,950,Fashion & Leather Goods,Local,Scotland UK,https://mcrostie.co.uk,Active Lead
-2026-10-09 14:45:00,Edward Johnson Studio,Edward,edward@edwardjohnsonstudio.co.uk,@edjohnsonstudio,3,400,Furniture,Local,West Sussex UK,https://edwardjohnsonstudio.co.uk,Active Lead
-2026-10-09 15:10:00,Jonathan Field Furniture,Jonathan,jonathan@jonathanfield.co.uk,@jonathan_field_furniture,1,450,Furniture,Local,London UK,https://jonathanfield.co.uk,Active Lead
-2026-10-09 15:10:00,Catherine Best Jewellery,Catherine,info@catherinebest.com,@catherinebestjewellery,3,800,Jewelry & Luxury Goods,Local,Jersey UK,https://catherinebest.com,Active Lead
+Date Discovered,Business,First Name,Verified Email,Instagram,Followers,Field,Tier,Location,Website,Status,
+2026-10-09 14:45:00,Dovetailors Workshop,David,info@dovetailors.co.uk,@dovetailorsfurniture,2,200,Furniture,Local,Leeds UK,https://dovetailors.co.uk,['Active Lead']
+2026-10-09 14:45:00,Wilfords Boutique Estates,Geoff,info@wilfords.com,@wilfordslondon,2,850,Real Estate,Local,London UK,https://wilfords.com,['Active Lead']
+2026-10-09 14:45:00,Raw Edge Furniture,Mark,sales@rawedgefurniture.com.au,@rawedgefurniture,2,800,Furniture,Local,Sydney Australia,https://rawedgefurniture.com.au,['Active Lead']
+2026-10-09 14:45:00,Plaza Estates,Cyril,post@plazaestates.co.uk,@plazaestates,3,108,Real Estate,Local,London UK,https://plazaestates.co.uk,['Active Lead']
+2026-10-09 14:45:00,The Glasshouse Clinic,Alison,info@theglasshouseclinic.co.uk,@glasshouse_clinic,2,426,Aesthetic & Medspa,Local,London UK,https://theglasshouseclinic.co.uk,['Active Lead']
+2026-10-09 14:45:00,Maskells Prime Kensington,Charles,chelsea@maskells.com,@maskellsea,4,937,Real Estate,Local,London UK,https://maskells.com,['Active Lead']
+2026-10-09 14:45:00,McRostie Leather Scotland,Alasdair,info@mcrostie.co.uk,@mcrostiescotland,1,950,Fashion & Leather Goods,Local,Scotland UK,https://mcrostie.co.uk,['Active Lead']
+2026-10-09 14:45:00,Edward Johnson Studio,Edward,edward@edwardjohnsonstudio.co.uk,@edjohnsonstudio,3,400,Furniture,Local,West Sussex UK,https://edwardjohnsonstudio.co.uk,['Active Lead']
+2026-10-09 15:10:00,Jonathan Field Furniture,Jonathan,jonathan@jonathanfield.co.uk,@jonathan_field_furniture,1,450,Furniture,Local,London UK,https://jonathanfield.co.uk,['Active Lead']
+2026-10-09 15:10:00,Catherine Best Jewellery,Catherine,info@catherinebest.com,@catherinebestjewellery,3,800,Jewelry & Luxury Goods,Local,Jersey UK,https://catherinebest.com,['Active Lead']
+2026-10-09 15:53:37,Waywood Furniture,Simon,mail@waywood.co.uk,@waywoodfurniture,"1,500",Furniture,"High Ticket (£1,500 - £8,000)","Oxfordshire, UK",https://waywood.co.uk,Verified Active Lead,
+2026-10-09 15:53:53,Hugh Miller Furniture,Hugh,studio@hughmillerfurniture.co.uk,@hughmillerfurniture,"1,500",Furniture,"High Ticket (£2,500 - £14,000)","Liverpool, UK",https://hughmillerfurniture.co.uk,Verified Active Lead,
+2026-10-09 15:53:59,Marc Fish Studio,Marc,info@marcfish.co.uk,@robinsonhousestudio,"1,500",Furniture,"High Ticket (£5,000 - £25,000)","Brighton, UK",https://marcfish.co.uk,Verified Active Lead,
+2026-10-09 15:55:00,Gareth Neal Studio,Gareth,info@garethneal.co.uk,@garethnealfurniture,"1,500",Furniture,"High Ticket (£3,000 - £18,000)","London, UK",https://garethneal.co.uk,Verified Active Lead,
+2026-10-09 15:55:08,Sebastian Cox Studio,Sebastian,studio@sebastiancox.co.uk,@sebastiancoxltd,"1,500",Furniture,"High Ticket (£2,000 - £12,000)","London, UK",https://sebastiancox.co.uk,Verified Active Lead,
+2026-10-09 15:55:19,Max Lamb Studio,Max,studio@maxlamb.org,@maxlambstudio,"1,500",Furniture,"High Ticket (£4,000 - £20,000)","London, UK",https://maxlamb.org,Verified Active Lead,
+2026-10-09 15:55:34,Spencer-Churchill Designs,Henrietta,enquiries@spencerchurchilldesigns.com,@spencerchurchilldesigns,"1,500",Interior Design,"High Ticket (£3,500 - £20,000)","Woodstock, UK",https://spencerchurchilldesigns.com,Verified Active Lead,
+2026-10-09 15:55:45,Studio Duggan Interiors,Studio Duggan,info@studioduggan.com,@studioduggan,"1,500",Interior Design,"High Ticket (£6,000 - £35,000)","London, UK",https://studioduggan.com,Verified Active Lead,
+2026-10-09 15:55:51,Salvesen Graham Design,Salvesen,info@salvesengraham.com,@salvesengraham,"1,500",Interior Design,"High Ticket (£5,000 - £28,000)","London, UK",https://salvesengraham.com,Verified Active Lead,
+2026-10-09 15:55:56,Turner Pocock Studio,Turner Pocock,info@turnerpocock.co.uk,@turnerpocock,"1,500",Interior Design,"High Ticket (£7,000 - £40,000)","London, UK",https://turnerpocock.co.uk,Verified Active Lead,
+2026-10-09 15:56:01,Emma Sims-Hilditch Studio,Emma,enquiries@simshilditch.com,@simshilditch,"1,500",Interior Design,"High Ticket (£8,000 - £50,000)","Cotswolds, UK",https://simshilditch.com,Verified Active Lead,
+2026-10-09 15:56:14,David Kohn Architects,David,info@davidkohn.co.uk,@officedka,"1,500",Architecture,"High Ticket (£12,000 - £70,000)","London, UK",https://davidkohn.co.uk,Verified Active Lead,
+2026-10-09 15:56:22,Taylor Architects Practice,Russell,mail@rtarchitects.co.uk,@russell_taylor_architects,"1,500",Architecture,"High Ticket (£10,000 - £55,000)","London, UK",https://rtarchitects.co.uk,Verified Active Lead,
+2026-10-09 15:56:29,Mountgrange Heritage Estates,Alex,sales@mountgrangeheritage.co.uk,@mountgrangeh,"1,500",Real Estate,"High Ticket (£10,000 - £100,000+)","London, UK",https://mountgrangeheritage.co.uk,Verified Active Lead,
+2026-10-09 15:56:37,Middleton Advisors Property,Mark,awilsdon@middletonadvisors.com,@middletonadvisors,"1,500",Real Estate,"High Ticket (£15,000 - £120,000+)","London, UK",https://middletonadvisors.com,Verified Active Lead,
+2026-10-09 15:56:46,Simpson Prime Chelsea,Russell,chelsea@russellsimpson.co.uk,@russellsimpson1979,"1,500",Real Estate,"High Ticket (£15,000 - £150,000+)",Chelsea London,https://russellsimpson.co.uk,Verified Active Lead,
+2026-10-09 15:56:53,Beauchamp Estates Prime,Beauchamp,info@beauchamp.com,@beauchampestatesfrance,"1,500",Real Estate,"High Ticket (£25,000 - £300,000+)",London & Cannes,https://beauchamp.com,Verified Active Lead,
+2026-10-09 15:57:09,Glentree Prime Estates,Glentree,sales@glentree.com,@glentreeestates,"1,500",Real Estate,"High Ticket (£20,000 - £250,000+)",Hampstead London,https://glentree.co.uk,Verified Active Lead,
+2026-10-09 15:57:31,Tomlinson Fine Jewellery,Ruth,info@ruthtomlinson.com,@ruthtomlinsonjewellery,"1,500",Jewelry & Luxury Goods,"High Ticket (£1,800 - £14,000)","London, UK",https://ruthtomlinson.com,Verified Active Lead,
+2026-10-09 15:57:37,Leane Master Atelier,Shaun,info@shaunleane.com,@shaunleanejewellery,"1,500",Jewelry & Luxury Goods,"High Ticket (£2,000 - £25,000)","London, UK",https://shaunleane.com,Verified Active Lead,
+2026-10-09 15:57:43,Small Ethical Jewels,Pippa,shopla@pippasmall.com,@pippasmalljewellery,"1,500",Jewelry & Luxury Goods,"High Ticket (£1,500 - £15,000)","London, UK",https://pippasmall.com,Verified Active Lead,
+2026-10-09 15:57:50,Dhunna Facial Aesthetics,Dr. Dan,pr@drdandhunna.com,@drdandhunna,"1,500",Aesthetic & Medspa,"High Ticket (£800 - £5,000)","London, UK",https://drdandhunna.com,Verified Active Lead,
+2026-10-09 15:58:10,Zamani Clinic London,Dr. Maryam,clinic@drmaryamzamani.com,@drmaryamzamani,"1,500",Aesthetic & Medspa,"High Ticket (£2,000 - £12,000)",Chelsea London,https://drmaryamzamani.com,Verified Active Lead,
+2026-10-09 15:58:17,Patel PHI Clinic,Dr. Tapan,info@phiclinic.com,@phiclinic,"1,500",Aesthetic & Medspa,"High Ticket (£2,500 - £15,000)",Harley St London,https://phiclinic.com,Verified Active Lead,
+2026-10-09 15:58:22,Sebagh Clinic,Dr. Jean-Louis,sales@drsebagh.com,@drsebagh,"1,500",Aesthetic & Medspa,"High Ticket (£2,000 - £14,000)",London & Paris,https://drsebagh.com,Verified Active Lead,
+2026-10-09 15:58:27,Transition Strength Zone,Rob,welcome@transitionzone.co.uk,@transition_zone,"1,500",Fitness & Wellness,"High Ticket (£1,200 - £6,000)","London, UK",https://transitionzone.co.uk,Verified Active Lead,
+2026-10-09 15:58:31,FitLife Private Gym,Sarah,mail@fitlife.co.uk,@fitlife_uk,"1,500",Fitness & Wellness,"High Ticket (£1,000 - £5,000)","Oxfordshire, UK",https://fitlife.co.uk,Verified Active Lead,
+2026-10-09 15:58:40,Tusting English Leather,Tusting,orders@tusting.co.uk,@tusting,"1,500",Fashion & Leather Goods,"High Ticket (£500 - £4,000)","Buckinghamshire, UK",https://tusting.co.uk,Verified Active Lead,
+2026-10-09 15:58:51,Curiousa Studio Glass,Esther,studio@curiousa.co.uk,@curiousastudio,"1,500",Home Decor & Lighting,"High Ticket (£1,800 - £12,000)","Derbyshire, UK",https://curiousa.co.uk,Verified Active Lead,
+2026-10-09 15:58:56,Rothschild & Bickers Glass,Rothschild,info@rothschildbickers.com,@rothschildbickers,"1,500",Home Decor & Lighting,"High Ticket (£1,500 - £9,500)","Hertfordshire, UK",https://rothschildbickers.com,Verified Active Lead,
+2026-10-09 15:59:06,Finch Architectural Lighting,Hector,sales@hectorfinch.com,@hectorfinchlighting,"1,500",Home Decor & Lighting,"High Ticket (£1,500 - £11,000)","London, UK",https://hectorfinch.com,Verified Active Lead,
+2026-10-09 15:59:11,Secret Society Workshop,Marco,tattoo@secretsocietytattoo.co.uk,@secretsocietytattoo,"1,500",Tattoo & Body Art,"High Ticket (£800 - £4,000)","London, UK",https://secretsocietytattoo.co.uk,Verified Active Lead,
+2026-10-09 15:59:29,Seven Doors Tattoo Studio,Seven,sevendoorstattoo@gmail.com,@sevendoorstattoo,"1,500",Tattoo & Body Art,"High Ticket (£1,000 - £5,500)","London, UK",https://sevendoorstattoo.com,Verified Active Lead,
+2026-10-09 16:12:08,Custom Built Statement Tables,Team,info@abacustables.co.uk,@abacustables,"1,800",Furniture,"High Ticket (London, UK)","London, UK",https://abacustables.co.uk,Verified Active Lead
+2026-10-09 16:12:14,Bespoke Handmade Wooden Furniture,Team,cw@cosywood.co.uk,@cosywooduk,"1,800",Furniture,"High Ticket (London, UK)","London, UK",https://cosywood.co.uk,Verified Active Lead
+2026-10-09 16:12:21,Thetableguy,Team,office@thetableguy.co.uk,@thetableguyuk,"1,800",Furniture,"High Ticket (London, UK)","London, UK",https://www.thetableguy.co.uk,Verified Active Lead
+2026-10-09 16:12:28,Order Dining Tables from Tom Marsh Furniture,Team,tmf@tommarshfurniture.co.uk,@tommarshfurniturehandmade,"1,800",Furniture,"High Ticket (London, UK)","London, UK",https://www.tommarshfurniture.co.uk,Verified Active Lead
