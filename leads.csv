@@ -1,8 +1,7 @@
 First Name,Business,Email,Field,Tier,Location,Website,Instagram,Followers
-David,Grosvenor Woodcraft,info@grosvenorwoodcraft.co.uk,Furniture,International,London UK,https://grosvenorwoodcraft.co.uk,https://instagram.com/grosvenorwoodcraft,815
-Rob,Tedworth Prime Property,contact@tedworth.co.uk,Real Estate,Local,London UK,https://tedworth.co.uk,https://instagram.com/tedworthproperty,"3,577"
-Dr. Ravi,Riverbanks Wellness Aesthetic Clinic,info@riverbanksclinic.co.uk,Aesthetic & Medspa,Local,Hertfordshire UK,https://riverbanksclinic.co.uk,https://instagram.com/RiverbanksWellness,"3,768"
-David,Dovetailors Workshop,info@dovetailors.co.uk,Furniture,Higher than Local,Leeds UK,https://dovetailors.co.uk,https://instagram.com/dovetailors,2
+Rob,Tedworth Prime Property,hello@tedworth.co.uk,Real Estate,Local,London UK,https://tedworth.co.uk,https://instagram.com/tedworthproperty,"3,577"
+Dr. Ravi,Riverbanks Wellness Aesthetic Clinic,reception@riverbanksclinic.co.uk,Aesthetic & Medspa,Local,Hertfordshire UK,https://riverbanksclinic.co.uk,https://instagram.com/RiverbanksWellness,"3,768"
+David,Dovetailors Workshop,info@dovetailors.co.uk,Furniture,Higher than Local,Leeds UK,https://dovetailors.co.uk,https://instagram.com/dovetailorsfurniture,2
 Simon,Wilfords Boutique Estates,info@wilfords.com,Real Estate,Local,London UK,https://wilfords.com,https://instagram.com/wilfordslondon,"6,669"
 Steve,Barnes and Moore Leather Studio,info@barnesandmoore.co.uk,Fashion & Leather Goods,Local,Birmingham UK,https://barnesandmoore.co.uk,https://instagram.com/barnesandmoore,"5,451"
 Mark,Raw Edge Furniture,sales@rawedgefurniture.com.au,Furniture,Local,Sydney Australia,https://rawedgefurniture.com.au,https://instagram.com/rawedgefurniture,"6,815"
@@ -12,9 +11,8 @@ Oliver,Through My Third Eye Studio,info@throughmythirdeye.com,Tattoo & Body Art,
 Olga,Black & Milk Residential Interiors,info@blackandmilk.co.uk,Interior Design,Higher than Local,London UK,https://blackandmilk.co.uk,https://instagram.com/blackandmilk,"6,767"
 Amos,Amos Goldreich Architecture,info@agarchitecture.net,Architecture,Local,London UK,https://agarchitecture.net,https://instagram.com/agarchitecture,247
 Henry,Maskells Prime Kensington,enquiries@maskells.com,Real Estate,Local,London UK,https://maskells.com,https://instagram.com/maskellsea,"4,937"
-Colin,McRostie Leather Scotland,info@mcrostie.co.uk,Fashion & Leather Goods,Higher than Local,Glasgow UK,https://mcrostie.co.uk,https://instagram.com/mcrostieleather,3
-Edward,Edward Johnson Studio,info@edwardjohnsonstudio.co.uk,Furniture,Higher than Local,Sussex UK,https://edwardjohnsonstudio.co.uk,https://instagram.com/edwardjohnsonstudio,5
-Steve,Cherchbi English Leather Goods,info@cherchbi.co.uk,Fashion & Leather Goods,Local,Cumbria UK,https://cherchbi.co.uk,https://instagram.com/cherchbi,974
+Colin,McRostie Leather Scotland,info@mcrostie.co.uk,Fashion & Leather Goods,Higher than Local,Glasgow UK,https://mcrostie.co.uk,https://instagram.com/mcrostiescotland,3
+Edward,Edward Johnson Studio,info@edwardjohnsonstudio.co.uk,Furniture,Higher than Local,Sussex UK,https://edwardjohnsonstudio.co.uk,https://instagram.com/edjohnsonstudio,5
 Marcus,Equilibrium Total Balance,info@weareequilibrium.com,Fitness & Wellness,Local,London UK,https://weareequilibrium.com,https://instagram.com/weareequilibrium,45
 Sarah,Etons of Bath Period Interiors,enquiries@etonsofbath.com,Interior Design,Higher than Local,Bath UK,https://etonsofbath.com,https://instagram.com/etonsofbath,"4,152"
 William,Paul Archer Design Practice,info@paularcherdesign.co.uk,Architecture,Local,London UK,https://paularcherdesign.co.uk,https://instagram.com/paularcherdesign,3
@@ -33,24 +31,20 @@ Harry,Plowman Craven Studio,info@plowmancraven.co.uk,Architecture,Higher than Lo
 Mark,Middleton Advisors Property,info@middletonadvisors.com,Real Estate,Higher than Local,London UK,https://middletonadvisors.com,https://instagram.com/middletonadvisors,"2,544"
 Marco,Secret Society Tattoo Workshop,info@secretsocietytattoo.co.uk,Tattoo & Body Art,Local,London UK,https://secretsocietytattoo.co.uk,https://instagram.com/secretsocietytattoo,"2,441"
 Angus,Angus Ross Furniture,info@angusross.co.uk,Furniture,Local,Aberfeldy Scotland,https://angusross.co.uk,https://instagram.com/angusrossltd,"5,117"
-Kavita,Kavita Interiors,info@kavitainteriors.com,Interior Design,Higher than Local,London UK,https://kavitainteriors.com,https://instagram.com/kavitainteriors,71
 Melanie,Melanie Eddy Fine Jewellery,info@melanieeddy.co.uk,Jewelry & Luxury Goods,Higher than Local,London UK,https://melanieeddy.co.uk,https://instagram.com/mne_eddy,"6,005"
 Tim,Black Brick Property Solutions,info@black-brick.com,Real Estate,Higher than Local,London UK,https://black-brick.com,https://instagram.com/blackbrickproperty,"6,706"
 Ute,Ute Decker Architectural Jewellery,info@utedecker.com,Jewelry & Luxury Goods,Local,London UK,https://utedecker.com,https://instagram.com/utedecker,140
 Dr. Rekha,Tailor Health & Aesthetic Clinic,info@healthandaesthetics.co.uk,Aesthetic & Medspa,International,Surrey UK,https://healthandaesthetics.co.uk,https://instagram.com/healthandaestheticsclinic,"3,384"
 Ben,Nobu Pilates Wellness Hub,wellness-london@nobuhotels.com,Fitness & Wellness,Higher than Local,London UK,https://nobuhotels.com,https://instagram.com/nobuwellness,0
-Sam,Red Point Tattoo Studio,info@redpointtattoo.co.uk,Tattoo & Body Art,Higher than Local,London UK,https://redpointtattoo.co.uk,https://instagram.com/redpointtattoo,0
 Rupert,Rupert Senior Furniture,rupert@rupertsenior.co.uk,Furniture,Local,Surrey UK,https://rupertsenior.co.uk,https://instagram.com/rupertseniorfurniture,820
 Sam,Jacob Studio Architecture,info@samjacob.com,Architecture,Higher than Local,London UK,https://samjacob.com,https://instagram.com/samjacobstudio,"6,296"
 Harry,Flykick London Boxing Studio,info@flykick.co.uk,Fitness & Wellness,Local,London UK,https://flykick.co.uk,https://instagram.com/flykick,"6,337"
 Henrietta,Spencer-Churchill Designs,info@spencerchurchilldesigns.com,Interior Design,Local,Woodstock UK,https://spencerchurchilldesigns.com,https://instagram.com/spencerchurchilldesigns,"1,500"
 David,Aston Chase Luxury Living,enquiries@astonchase.com,Real Estate,Higher than Local,London UK,https://astonchase.com,https://instagram.com/aston.chase,"7,729"
-Corinna,Corinna Pike Master Goldsmith,info@corinnapike.co.uk,Jewelry & Luxury Goods,Local,London UK,https://corinnapike.co.uk,https://instagram.com/corinnapike,0
 Dr. Victoria,Manning River Aesthetics,info@riveraesthetics.com,Aesthetic & Medspa,International,Bournemouth UK,https://riveraesthetics.com,https://instagram.com/riveraesthetics,6
 Arthur,Foster & Son Bespoke Shoes,shoemaker@foster.co.uk,Fashion & Leather Goods,Local,London UK,https://foster.co.uk,https://instagram.com/fosterandson1840,"2,589"
 Oliver,Lurot Brand Mews Specialists,info@lurotbrand.co.uk,Real Estate,Local,London UK,https://lurotbrand.co.uk,https://instagram.com/lurotbrand,"7,506"
 Catherine,Catherine Best Island Jewels,info@catherinebest.com,Jewelry & Luxury Goods,International,Jersey UK,https://catherinebest.com,https://instagram.com/catherinebestjewellery,"4,102"
-George,Platform Studios Health,info@theplatformstudios.co.uk,Fitness & Wellness,Local,London UK,https://theplatformstudios.co.uk,https://instagram.com/platformstudios,"1,978"
 Luke,Original House Vintage Interiors,info@original-house.co.uk,Home Decor & Lighting,Higher than Local,Cotswolds UK,https://original-house.co.uk,https://instagram.com/originalhouse,15
 Henry,Wetherell Mayfair Estates,info@wetherell.co.uk,Real Estate,International,London UK,https://wetherell.co.uk,https://instagram.com/wetherellmayfair,"2,055"
 Dr. Nick,Milojevic Milo Clinic,info@miloclinic.com,Aesthetic & Medspa,International,London UK,https://miloclinic.com,https://instagram.com/miloclinic,843

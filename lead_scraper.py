@@ -202,8 +202,7 @@ DISCOVERY_CANDIDATES = [
     ("Rob", "Transition Cycle & Strength Hub", "https://transitionzone.co.uk", "transition_zone", "Fitness & Wellness", "Local", "London UK"),
     
     # Fashion & Leather Goods
-    ("Steve", "Cherchbi English Leather Goods", "https://cherchbi.co.uk", "cherchbi", "Fashion & Leather Goods", "Local", "Cumbria UK"),
-    ("Alasdair", "McRostie Leather Scotland", "https://mcrostie.co.uk", "mcrostieleather", "Fashion & Leather Goods", "Local", "Scotland UK"),
+    ("Alasdair", "McRostie Leather Scotland", "https://mcrostie.co.uk", "mcrostiescotland", "Fashion & Leather Goods", "Local", "Scotland UK"),
     ("Ian", "Campbell Cole Accessories", "https://campbellcole.co.uk", "campbell_cole", "Fashion & Leather Goods", "Local", "Nottingham UK"),
     ("Sarah", "Chapman Bags Handcrafted Goods", "https://chapmanbags.com", "chapmanbags", "Fashion & Leather Goods", "Higher than Local", "Cumbria UK"),
     
@@ -214,15 +213,27 @@ DISCOVERY_CANDIDATES = [
     
     # Tattoo & Body Art
     ("Marco", "Secret Society Tattoo Workshop", "https://secretsocietytattoo.co.uk", "secretsocietytattoo", "Tattoo & Body Art", "Local", "London UK"),
-    ("Stevie", "Hunter & Fox Tattoo Parlour", "https://hunterandfox.com.au", "hunterandfox", "Tattoo & Body Art", "Local", "Sydney Australia"),
-    ("Liam", "Red Point Tattoo Studio", "https://redpointtattoo.co.uk", "redpointtattoo", "Tattoo & Body Art", "Local", "London UK")
+    ("Stevie", "Hunter & Fox Tattoo Parlour", "https://hunterandfox.com.au", "hunterandfox", "Tattoo & Body Art", "Local", "Sydney Australia")
 ]
+
+def verify_email_dns(email):
+    """Verifies that the email domain actually resolves to prevent future bounces."""
+    if not email or "@" not in email:
+        return False
+    try:
+        import socket
+        domain = email.split("@")[1].strip()
+        socket.gethostbyname(domain)
+        return True
+    except Exception:
+        return False
 
 def run_discovery_pipeline(limit=10):
     print("\n" + "="*65)
     print(" [*] STARTING LEAD DISCOVERY PIPELINE (FOR SPREADSHEET 2)")
     print(" [*] Rule: Zero emails sent | Only verified scraped inboxes")
-    print(" [*] Rule: Strictly < 5k followers | Zero duplicate IDs from Sheet 1")
+    print(" [*] Rule: Strictly < 5k followers | Active Instagram only")
+    print(" [*] Rule: Pre-checks DNS to eliminate bounce risk")
     print("="*65 + "\n")
 
     forbidden_ids = get_forbidden_instagram_ids()
@@ -253,6 +264,11 @@ def run_discovery_pipeline(limit=10):
         scraped_email = scrape_verified_email(website)
         if not scraped_email:
             print(f"[-] SKIPPED (No verified email published on website): {website}")
+            continue
+
+        # 4. DNS / BOUNCE PREVENTION CHECK
+        if not verify_email_dns(scraped_email):
+            print(f"[-] SKIPPED (Domain failed DNS check): {scraped_email}")
             continue
 
         # 4. PASSED ALL CHECKS -> RECORD TO SPREADSHEET 2

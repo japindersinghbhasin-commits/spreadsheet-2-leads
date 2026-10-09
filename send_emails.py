@@ -301,10 +301,16 @@ def send_campaign(limit=200):
         if not to_email:
             continue
 
-        # Authenticity / DNS check
+        # Strict Bounce Protection & Active Lead Verification
         if not is_domain_valid(to_email):
             print(f"[*] SKIPPED (Invalid/Dead Domain) -> {to_email} (Auto-replacing with next valid lead)")
             record_sent_email(lead, status="Skipped: Invalid Domain")
+            continue
+
+        ig_handle = lead.get("Instagram", "").strip()
+        if not ig_handle:
+            print(f"[*] SKIPPED (Missing Instagram) -> {lead.get('Business')} (Auto-replacing with next valid lead)")
+            record_sent_email(lead, status="Skipped: Missing Instagram")
             continue
 
         subject, body = render_email(lead, niches)
@@ -319,8 +325,16 @@ def send_campaign(limit=200):
             sent_count += 1
             record_sent_email(lead, status="Sent")
             print(f"[{sent_count}/{limit}] SENT -> {lead.get('Business')} ({to_email}) | Field: {lead.get('Field')} | Name: {lead.get('First Name')}")
+        except smtplib.SMTPRecipientsRefused as err:
+            print(f"[!] BOUNCE PREVENTED (Recipient Rejected by Mail Server): {to_email} -> Auto-replacing with next valid lead.")
+            record_sent_email(lead, status=f"Bounced: Recipient Refused")
+            continue
+        except smtplib.SMTPResponseException as err:
+            print(f"[!] SMTP Error ({err.smtp_code}): {err.smtp_error} -> Auto-replacing with next valid lead.")
+            record_sent_email(lead, status=f"SMTP Error: {err.smtp_code}")
+            continue
         except Exception as err:
-            print(f"[!] FAILED sending to {to_email}: {err}")
+            print(f"[!] FAILED sending to {to_email}: {err} -> Auto-replacing with next valid lead.")
             record_sent_email(lead, status=f"Failed: {err}")
             continue
 
