@@ -1,6 +1,9 @@
 name: 24/7 Asia & Middle East Leads Streamer
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Runs automatically every 30 minutes in GitHub Cloud (24/7, works when PC is asleep or off)
     - cron: '*/30 * * * *'
