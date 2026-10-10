@@ -1,0 +1,36 @@
+name: 24/7 Asia & Middle East Leads Streamer
+
+on:
+  schedule:
+    # Runs automatically every 30 minutes in GitHub Cloud (24/7, works when PC is asleep or off)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+jobs:
+  stream-leads:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Cloud Streamer
+        env:
+          SPREADSHEET_3_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbwMeoE2kST12L34QY7vjICa-8s6bZJpAzHBwLB9-c8CBbqRReyEapsY1Lc-MM_Cvk_L/exec"
+        run: |
+          python stream_asia_me_github_action.py
+
+      - name: Commit and Push Verified Leads
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Cloud Harvester"
+          git add spreadsheet_3_asia_middle_east_leads.csv
+          git commit -m "Auto-update: Verified Asia & Middle East leads [skip ci]" || echo "No new leads to commit"
+          git push
