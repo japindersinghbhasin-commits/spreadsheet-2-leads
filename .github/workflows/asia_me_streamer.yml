@@ -28,6 +28,7 @@ jobs:
         env:
           SPREADSHEET_3_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbwMeoE2kST12L34QY7vjICa-8s6bZJpAzHBwLB9-c8CBbqRReyEapsY1Lc-MM_Cvk_L/exec"
         run: |
+          pip install curl_cffi
           python stream_asia_me_github_action.py
 
       - name: Commit and Push Verified Leads

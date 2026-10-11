@@ -59,14 +59,50 @@ def is_valid_geo(loc):
         return False
     return any(c in low for c in ALLOWED_COUNTRIES)
 
+try:
+    from curl_cffi import requests as cffi_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    HAS_CURL_CFFI = False
+
+def parse_follower_str(s):
+    if not s: return None
+    s = s.lower().replace("followers", "").replace(",", "").strip()
+    if "m" in s:
+        try: return int(float(s.replace("m", "")) * 1000000)
+        except Exception: return None
+    if "k" in s:
+        try: return int(float(s.replace("k", "")) * 1000)
+        except Exception: return None
+    try:
+        return int(float(s))
+    except Exception:
+        return None
+
 def check_live_socialblade(handle):
     clean = handle.strip("/@").lower()
     if len(clean) < 3 or clean in ["p", "explore", "reels", "stories", "share", "direct", "accounts", "instagram"]:
         return None
+
+    # 1. Direct Instagram via TLS impersonation
+    if HAS_CURL_CFFI:
+        try:
+            url = f"https://www.instagram.com/{clean}/"
+            r = cffi_requests.get(url, impersonate="chrome120", timeout=8)
+            if r.status_code == 200:
+                m = re.search(r"([0-9,kKmM\.]+)\s*(?:followers|Followers)", r.text)
+                if m:
+                    cnt = parse_follower_str(m.group(1))
+                    if cnt is not None:
+                        return cnt
+        except Exception:
+            pass
+
+    # 2. Fallback via Jina SocialBlade
     url = f"https://r.jina.ai/https://socialblade.com/instagram/user/{clean}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        html = urllib.request.urlopen(req, timeout=12.0).read().decode("utf-8", "ignore")
+        html = urllib.request.urlopen(req, timeout=8.0).read().decode("utf-8", "ignore")
         m = re.search(r"followers\s*\n+\s*([0-9,]+)", html, re.I)
         if m:
             return int(m.group(1).replace(",", "").strip())
