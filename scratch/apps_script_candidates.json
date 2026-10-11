@@ -9618,5 +9618,644 @@
     "field": "Bespoke Furniture & Joinery",
     "tier": "Tier 2 (Custom Joinery)",
     "location": "Bangkok (Sukhumvit), Thailand"
+  },
+  {
+    "business": "HAO Design Studio Taiwan",
+    "founder": "Hao",
+    "website": "https://www.haodesign.tw",
+    "handle": "haodesign.tw",
+    "all_handles": [
+      "haodesign.tw",
+      "t51.2885"
+    ],
+    "email": "info@haodesign.tw",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (NT$ 500,000 - NT$ 3,000,000)",
+    "location": "Taipei (Xinyi), Taiwan"
+  },
+  {
+    "business": "Ravi Vazirani Design Studio",
+    "founder": "Ravi",
+    "website": "https://www.ravivazirani.com",
+    "handle": "rayvie",
+    "all_handles": [
+      "rayvie",
+      "t51.2885"
+    ],
+    "email": "info@ravivazirani.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Mumbai, India"
+  },
+  {
+    "business": "Gratitude Design",
+    "founder": "Angkoon",
+    "website": "https://www.gratitudedesign.com",
+    "handle": "gratitudedesign",
+    "all_handles": [
+      "gratitudedesign"
+    ],
+    "email": "info@gratitudedesign.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (THB 500,000 - THB 3,500,000)",
+    "location": "Bangkok (Thonglor), Thailand"
+  },
+  {
+    "business": "Kumar Group Practice",
+    "founder": "Leena",
+    "website": "https://www.kumargroup.org",
+    "handle": "kumar_group",
+    "all_handles": [
+      "kumar_group"
+    ],
+    "email": "info@kumargroup.org",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangalore, India"
+  },
+  {
+    "business": "Ronald Lu & Partners",
+    "founder": "Ronald",
+    "website": "https://www.rlp.asia",
+    "handle": "rlp.asia",
+    "all_handles": [
+      "rlp.asia"
+    ],
+    "email": "info@rlp.asia",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong"
+  },
+  {
+    "business": "Faincy Jewellery Store",
+    "founder": "Saurabh",
+    "website": "https://faincy.co.in",
+    "handle": "faincy_jewellery",
+    "all_handles": [
+      "faincy_jewellery"
+    ],
+    "email": "info@faincy.co.in",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (Johari Bazaar), India"
+  },
+  {
+    "business": "Ra Abta by Rahul Luthra",
+    "founder": "Rahul",
+    "website": "https://raabtabyrahul.com",
+    "handle": "raabtabyrahul",
+    "all_handles": [
+      "raabtabyrahul"
+    ],
+    "email": "info@raabtabyrahul.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (South Extension), India"
+  },
+  {
+    "business": "Silk Clinics",
+    "founder": "Suzanne",
+    "website": "https://www.silkclinicsdubai.com",
+    "handle": "silkclinicsdubai",
+    "all_handles": [
+      "silkclinicsdubai",
+      "silkclinics",
+      "reel"
+    ],
+    "email": "info@silkclinicsdubai.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "Higher than Local",
+    "location": "Dubai (Dubai Healthcare City), UAE"
+  },
+  {
+    "business": "Curatio Aesthetic Dermatology",
+    "founder": "Aparna",
+    "website": "https://www.curatioclinic.com",
+    "handle": "drabhishekkundu",
+    "all_handles": [
+      "drabhishekkundu",
+      "curatioclinicofficial"
+    ],
+    "email": "contact@cutationclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "Local",
+    "location": "Mumbai (Khar West), India"
+  },
+  {
+    "business": "La Piel Clinic Khar",
+    "founder": "Sharmila",
+    "website": "https://www.lapiel.in",
+    "handle": "drtrasilapiel",
+    "all_handles": [
+      "drtrasilapiel"
+    ],
+    "email": "info@lapiel.in",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "Higher than Local",
+    "location": "Mumbai (Khar West), India"
+  },
+  {
+    "business": "M Aesthetics Skin Clinic",
+    "founder": "Akshay",
+    "website": "https://www.maestheticsskinclinic.com",
+    "handle": "m.aesthetics_skincare",
+    "all_handles": [
+      "m.aesthetics_skincare"
+    ],
+    "email": "maestheticsskinclinic@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Pune (Viman Nagar), India"
+  },
+  {
+    "business": "Wooderful Life Atelier",
+    "founder": "Jean",
+    "website": "https://www.wooderfullife.com",
+    "handle": "wooderfullife_official",
+    "all_handles": [
+      "wooderfullife_official"
+    ],
+    "email": "info@wooderfullife.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "Tier 2 (Bespoke Woodcraft)",
+    "location": "Taipei, Taiwan"
+  },
+  {
+    "business": "Mufu Woodwork (\u6728\u592b)",
+    "founder": "Jiahong",
+    "website": "https://www.mufu.com.tw",
+    "handle": "mufu_official",
+    "all_handles": [
+      "mufu_official"
+    ],
+    "email": "info@mufu.com.tw",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "Tier 1 (Master Atelier)",
+    "location": "Taichung, Taiwan"
+  },
+  {
+    "business": "Toast Living Studio",
+    "founder": "Bo",
+    "website": "https://www.toastliving.com",
+    "handle": "toastliving",
+    "all_handles": [
+      "toastliving"
+    ],
+    "email": "info@toastliving.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "Tier 1 (Luxury Bespoke)",
+    "location": "Taipei, Taiwan"
+  },
+  {
+    "business": "The Chelsea Clinic Wheelock Place",
+    "founder": "Jonathan",
+    "website": "https://www.chelseaclinic.com.sg",
+    "handle": "thechelseaclinic",
+    "all_handles": [
+      "thechelseaclinic"
+    ],
+    "email": "info@chelseaclinic.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Singapore (Wheelock Place, Orchard)"
+  },
+  {
+    "business": "Muse Interior Design",
+    "founder": "Muse",
+    "website": "https://musedesign.ae",
+    "handle": "musedesign",
+    "all_handles": [
+      "musedesign",
+      "musedesign.ae"
+    ],
+    "email": "info@musedesign.ae",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Dubai, UAE"
+  },
+  {
+    "business": "Scarlet Splendour",
+    "founder": "Scarlet",
+    "website": "https://scarletsplendour.com",
+    "handle": "scarlet_splendour",
+    "all_handles": [
+      "scarlet_splendour"
+    ],
+    "email": "info@scarletsplendour.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Kolkata, India"
+  },
+  {
+    "business": "Moonlit Custom Joinery",
+    "founder": "Moonlit",
+    "website": "https://moonlit.com.my",
+    "handle": "moonlit.inspiration",
+    "all_handles": [
+      "moonlit.inspiration"
+    ],
+    "email": "info@moonlit.com.my",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Selangor, Malaysia"
+  },
+  {
+    "business": "Her Story Jewels",
+    "founder": "Her",
+    "website": "https://herstoryjewels.com",
+    "handle": "maisonaneka",
+    "all_handles": [
+      "maisonaneka"
+    ],
+    "email": "info@herstoryjewels.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket",
+    "location": "Mumbai, India"
+  },
+  {
+    "business": "Allzone Architecture Atelier",
+    "founder": "Allzone",
+    "website": "https://allzonedesignall.com",
+    "handle": "allzone.official",
+    "all_handles": [
+      "allzone.official"
+    ],
+    "email": "allzone@allzonedesignall.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangkok, Thailand"
+  },
+  {
+    "business": "Woodcraft Singapore Joinery",
+    "founder": "Woodcraft",
+    "website": "https://woodcraft.com.sg",
+    "handle": "woodcraftinteriorsg",
+    "all_handles": [
+      "woodcraftinteriorsg"
+    ],
+    "email": "sales@woodcraft.com.sg",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Singapore"
+  },
+  {
+    "business": "CosMax Medical Aesthetic HK",
+    "founder": "CosMax",
+    "website": "https://cosmax.com.hk",
+    "handle": "cosmax_official",
+    "all_handles": [
+      "cosmax_official"
+    ],
+    "email": "info@cosmax.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Hong Kong"
+  },
+  {
+    "business": "Abin Design Studio",
+    "founder": "Abin",
+    "website": "https://abindesignstudio.com",
+    "handle": "handsminds",
+    "all_handles": [
+      "handsminds",
+      "abindesign_studio"
+    ],
+    "email": "info@abindesignstudio.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Kolkata, India"
+  },
+  {
+    "business": "Rattinan Medical Center",
+    "founder": "Rattinan",
+    "website": "https://rattinan.com",
+    "handle": "rattinan.clinic",
+    "all_handles": [
+      "rattinan.clinic"
+    ],
+    "email": "info@rattinan.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Bangkok, Thailand"
+  },
+  {
+    "business": "AaaM Architects Hong Kong",
+    "founder": "AaaM",
+    "website": "https://aaam.com.hk",
+    "handle": "aaam_architect",
+    "all_handles": [
+      "aaam_architect"
+    ],
+    "email": "info@aaam.com.hk",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong"
+  },
+  {
+    "business": "Eden Aesthetics Clinic",
+    "founder": "Eden",
+    "website": "https://edenaesthetics.com",
+    "handle": "eden_aesthetics_uk",
+    "all_handles": [
+      "eden_aesthetics_uk"
+    ],
+    "email": "info@edenaesthetics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Dubai, UAE"
+  },
+  {
+    "business": "Anna Hu Haute Joaillerie",
+    "founder": "Anna",
+    "website": "https://anna-hu.com",
+    "handle": "annahu_hautejoaillerie",
+    "all_handles": [
+      "annahu_hautejoaillerie"
+    ],
+    "email": "info@anna-hu.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket",
+    "location": "Taipei, Taiwan"
+  },
+  {
+    "business": "Isya Aesthetics",
+    "founder": "Kiran",
+    "website": "https://isyaderm.com",
+    "handle": "isyaderm",
+    "all_handles": [
+      "isyaderm",
+      "ambikaanand",
+      "riyasendv",
+      "sohilabajaj",
+      "gabriellademetriades",
+      "chefkelvincheung",
+      "reel"
+    ],
+    "email": "info@isyaderm.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "New Delhi, India"
+  },
+  {
+    "business": "Studio Make Architecture",
+    "founder": "StuDo",
+    "website": "https://studiomake.com",
+    "handle": "studiomake_",
+    "all_handles": [
+      "studiomake_"
+    ],
+    "email": "info@studiomake.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangkok, Thailand"
+  },
+  {
+    "business": "dix Interior Architecture",
+    "founder": "Sean",
+    "website": "https://www.seandix.com",
+    "handle": "seandixdesigns",
+    "all_handles": [
+      "seandixdesigns"
+    ],
+    "email": "studio@seandix.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Hong Kong"
+  },
+  {
+    "business": "Pachara Clinic Bangkok",
+    "founder": "Pachara",
+    "website": "https://pacharaclinic.com",
+    "handle": "pachara.clinic",
+    "all_handles": [
+      "pachara.clinic"
+    ],
+    "email": "pacharaclinicchiangmai@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Bangkok, Thailand"
+  },
+  {
+    "business": "Dermaster Wellness & Aesthetic",
+    "founder": "Dermaster",
+    "website": "https://dermaster-thailand.com",
+    "handle": "dermasterhospital",
+    "all_handles": [
+      "dermasterhospital"
+    ],
+    "email": "info@dermaster-thailand.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket",
+    "location": "Bangkok, Thailand"
+  },
+  {
+    "business": "Studio Kalo Architecture",
+    "founder": "Ammar",
+    "website": "https://www.ammarkalo.com",
+    "handle": "studiokaloarchitecture",
+    "email": "info@ammarkalo.com",
+    "field": "Architecture",
+    "tier": "High Ticket (AED 50,000 - AED 350,000)",
+    "location": "Dubai (d3 Design District), UAE"
+  },
+  {
+    "business": "DADA Design and Architecture",
+    "founder": "Marc",
+    "website": "https://www.dada-design.com",
+    "handle": "dadadesignandarchitecture",
+    "email": "info@dada-design.com",
+    "field": "Architecture",
+    "tier": "High Ticket (QAR 50,000 - QAR 350,000)",
+    "location": "Doha (West Bay), Qatar"
+  },
+  {
+    "business": "Nouf Interiors",
+    "founder": "Nouf",
+    "website": "https://www.noufinteriors.com",
+    "handle": "noufinteriors",
+    "email": "info@noufinteriors.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (SAR 50,000 - SAR 350,000)",
+    "location": "Riyadh (Al Malqa), Saudi Arabia"
+  },
+  {
+    "business": "Brewin Design Office",
+    "founder": "Robert",
+    "website": "https://www.brewindesignoffice.com",
+    "handle": "brewindesignoffice",
+    "email": "info@brewindesignoffice.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (SGD $30,000 - SGD $200,000)",
+    "location": "Singapore (Tanjong Pagar), Singapore"
+  },
+  {
+    "business": "Guz Architects",
+    "founder": "Guz",
+    "website": "https://www.guzarchitects.com",
+    "handle": "guzarchitects",
+    "email": "info@guzarchitects.com",
+    "field": "Architecture",
+    "tier": "High Ticket (SGD $30,000 - SGD $200,000)",
+    "location": "Singapore (Keppel), Singapore"
+  },
+  {
+    "business": "Rahul Mehrotra RMA Architects",
+    "founder": "Rahul",
+    "website": "https://www.rmaarchitects.com",
+    "handle": "rahulmehrotrarmaarchitects",
+    "email": "info@rmaarchitects.com",
+    "field": "Architecture",
+    "tier": "High Ticket (\u20b95,00,000 - \u20b935,00,000)",
+    "location": "Mumbai (Colaba), India"
+  },
+  {
+    "business": "Chetan Jewellers",
+    "founder": "Suneet",
+    "website": "https://chetanjewellers.com",
+    "handle": "chetanjewellers",
+    "email": "info@chetanjewellers.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (Gold & Diamond Park), UAE"
+  },
+  {
+    "business": "Shri Hari Diagems",
+    "founder": "Vinay",
+    "website": "https://shriharidiagems.com",
+    "handle": "shriharidiagems",
+    "email": "info@shriharidiagems.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (Defence Colony), India"
+  },
+  {
+    "business": "Ghalia Fine Jewelry",
+    "founder": "Sara",
+    "website": "https://ghalia.sa",
+    "handle": "ghaliafinejewelry",
+    "email": "info@ghalia.sa",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jeddah (Tahlia Street), Saudi Arabia"
+  },
+  {
+    "business": "Peter Lam Jewellery",
+    "founder": "Peter",
+    "website": "https://peterlamjewellery.com",
+    "handle": "peterlamjewellery",
+    "email": "info@peterlamjewellery.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hong Kong (Tsim Sha Tsui)"
+  },
+  {
+    "business": "The Roof Studio Interiors",
+    "founder": "Ken",
+    "website": "https://www.theroofstudio.com",
+    "handle": "theroofstudiointeriors",
+    "email": "info@theroofstudio.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (MYR 50,000 - MYR 350,000)",
+    "location": "Kuala Lumpur (Damansara), Malaysia"
+  },
+  {
+    "business": "DIAN Jewellery",
+    "founder": "Danielle",
+    "website": "https://dianjewellery.com",
+    "handle": "dianjewellery",
+    "email": "info@dianjewellery.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (Gold & Diamond Park), UAE"
+  },
+  {
+    "business": "Magpie Fine Jewelry",
+    "founder": "Rima",
+    "website": "https://magpiefinejewelry.com",
+    "handle": "magpiefinejewelry",
+    "email": "info@magpiefinejewelry.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Doha (Al Hazm), Qatar"
+  },
+  {
+    "business": "Maison Artinian",
+    "founder": "Arto",
+    "website": "https://maisonartinian.com",
+    "handle": "maisonartinian",
+    "email": "info@maisonartinian.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Silom Soi 19), Thailand"
+  },
+  {
+    "business": "Maggie Gems Atelier",
+    "founder": "Maggie",
+    "website": "https://maggiegems.com",
+    "handle": "maggiegemsatelier",
+    "email": "info@maggiegems.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "August Design Consultant",
+    "founder": "Pat",
+    "website": "https://www.august.co.th",
+    "handle": "augustdesignconsultant",
+    "email": "info@august.co.th",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (THB 500,000 - THB 3,500,000)",
+    "location": "Bangkok (Sathorn), Thailand"
+  },
+  {
+    "business": "Steve Leung Design Group",
+    "founder": "Steve",
+    "website": "https://www.sldgroup.com",
+    "handle": "steveleungdesigngroup",
+    "email": "info@sldgroup.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket (HKD $150,000 - HKD $1,000,000)",
+    "location": "Hong Kong (Kowloon), Hong Kong"
+  },
+  {
+    "business": "Timber Actually",
+    "founder": "Eric",
+    "website": "https://www.timberactually.com",
+    "handle": "timberactually",
+    "email": "info@timberactually.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "Tier 2 (Custom Joinery)",
+    "location": "Sungei Kadut, Singapore"
+  },
+  {
+    "business": "Fadi Sarieddine Design",
+    "founder": "Fadi",
+    "website": "https://www.fadisarieddine.com",
+    "handle": "fadisarieddinedesign",
+    "email": "info@fadisarieddine.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "Tier 1 (Luxury Bespoke)",
+    "location": "Dubai (Al Quoz), UAE"
+  },
+  {
+    "business": "Farah Khan Fine Jewellery",
+    "founder": "Farah",
+    "website": "https://farahkhan.com",
+    "handle": "farahkhanfinejewellery",
+    "email": "info@farahkhan.com",
+    "field": "Jewelry & Luxury Goods",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Mumbai (Bandra West), India"
+  },
+  {
+    "business": "Kuanchanok Pakavaleetorn Architects",
+    "founder": "Kuanchanok",
+    "website": "https://www.kp-architects.com",
+    "handle": "kuanchanokpakavaleetornarchitects",
+    "email": "info@kp-architects.com",
+    "field": "Architecture",
+    "tier": "High Ticket (THB 500,000 - THB 3,500,000)",
+    "location": "Bangkok (Sathorn), Thailand"
   }
 ]

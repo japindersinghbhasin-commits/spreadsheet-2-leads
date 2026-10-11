@@ -35,5 +35,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Cloud Harvester"
           git add spreadsheet_3_asia_middle_east_leads.csv
-          git commit -m "Auto-update: Verified Asia & Middle East leads [skip ci]" || echo "No new leads to commit"
+          git commit -m "Auto-update: Verified Asia & Middle East leads" || echo "No new leads to commit"
           git push

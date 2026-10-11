@@ -154,7 +154,7 @@ def main():
     log(f"[*] Loaded {len(candidates)} candidates. Evaluating live...")
 
     added_this_run = 0
-    max_run_time_seconds = 2800 # GitHub Actions step limit safe cutoff (45 mins per run)
+    max_run_time_seconds = 18000 # Continuous 5-hour cloud streaming run
     start_time = time.time()
 
     for cand in candidates:
