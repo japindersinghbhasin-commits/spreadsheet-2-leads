@@ -10257,5 +10257,2197 @@
     "field": "Architecture",
     "tier": "High Ticket (THB 500,000 - THB 3,500,000)",
     "location": "Bangkok (Sathorn), Thailand"
+  },
+  {
+    "business": "Urban Nest",
+    "founder": "Janaika",
+    "website": "https://urbannest.ae",
+    "handle": "urbannest.ae",
+    "all_handles": [
+      "urbannest.ae"
+    ],
+    "email": "info@urbannest.ae",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Dubai (Al Quoz)"
+  },
+  {
+    "business": "La Sorogeeka Associates",
+    "founder": "Anjali",
+    "website": "https://lasorogeeka.com",
+    "handle": "lsi_uae",
+    "all_handles": [
+      "lsi_uae"
+    ],
+    "email": "info@lasorogeeka.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Dubai (d3)"
+  },
+  {
+    "business": "Wood Culture",
+    "founder": "Mazen",
+    "website": "https://woodculture.ae",
+    "handle": "woodculturedxb",
+    "all_handles": [
+      "woodculturedxb"
+    ],
+    "email": "info@woodculture.ae",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Dubai (Al Quoz)"
+  },
+  {
+    "business": "H2R Design",
+    "founder": "Hasan",
+    "website": "https://h2rdesign.com",
+    "handle": "h2rdesign",
+    "all_handles": [
+      "h2rdesign"
+    ],
+    "email": "info@h2rdesign.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Dubai (d3)"
+  },
+  {
+    "business": "Studio Toggle KSA",
+    "founder": "Ghaida",
+    "website": "https://studiotoggle.com",
+    "handle": "studiotoggle",
+    "all_handles": [
+      "studiotoggle"
+    ],
+    "email": "info@studiotoggle.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Riyadh"
+  },
+  {
+    "business": "desert INK",
+    "founder": "Duncan",
+    "website": "https://desert-ink.com",
+    "handle": "desertinkdesign",
+    "all_handles": [
+      "desertinkdesign"
+    ],
+    "email": "pete@petebracey.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Dubai (d3)"
+  },
+  {
+    "business": "Nada Debs Studio KSA",
+    "founder": "Nada",
+    "website": "https://nadadebs.com",
+    "handle": "studionadadebs",
+    "all_handles": [
+      "studionadadebs"
+    ],
+    "email": "info@nadadebs.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Riyadh"
+  },
+  {
+    "business": "Caspaiou Design Studio",
+    "founder": "Alexander",
+    "website": "https://caspaiou.com",
+    "handle": "caspaiou",
+    "all_handles": [
+      "caspaiou"
+    ],
+    "email": "contact@caspaiou.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Dubai (Al Quoz)"
+  },
+  {
+    "business": "Concept Me",
+    "founder": "Nina",
+    "website": "https://concept-me.com",
+    "handle": "conceptmebynina",
+    "all_handles": [
+      "conceptmebynina"
+    ],
+    "email": "info@concept-me.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Riyadh"
+  },
+  {
+    "business": "Asylum",
+    "founder": "Chris",
+    "website": "https://theasylum.com.sg",
+    "handle": "asylumcreativesg",
+    "all_handles": [
+      "asylumcreativesg"
+    ],
+    "email": "info@theasylum.com.sg",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Singapore (Chinatown)"
+  },
+  {
+    "business": "LOCI Architecture + Design",
+    "founder": "Hani",
+    "website": "https://loci.ae",
+    "handle": "loci.ae",
+    "all_handles": [
+      "loci.ae"
+    ],
+    "email": "info@loci.ae",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Dubai (d3)"
+  },
+  {
+    "business": "Almana Maples",
+    "founder": "Wissam",
+    "website": "https://almanamaples.com",
+    "handle": "almanamaples",
+    "all_handles": [
+      "almanamaples"
+    ],
+    "email": "info@almanamaples.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Doha"
+  },
+  {
+    "business": "Whitespace Architects",
+    "founder": "Omar",
+    "website": "https://whitespacearchitects.com",
+    "handle": "whitespace_architects",
+    "all_handles": [
+      "whitespace_architects",
+      "reel"
+    ],
+    "email": "info@whitespacearchitects.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Dubai (d3)"
+  },
+  {
+    "business": "AEA Designs",
+    "founder": "Ali",
+    "website": "https://aeadesigns.com",
+    "handle": "aubreyelizabeth.art",
+    "all_handles": [
+      "aubreyelizabeth.art"
+    ],
+    "email": "info@aeadesigns.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Doha"
+  },
+  {
+    "business": "ipse ipsa ipsum",
+    "founder": "Saurabh",
+    "website": "https://ipseipsaipsum.com",
+    "handle": "ipseipsaipsum",
+    "all_handles": [
+      "ipseipsaipsum"
+    ],
+    "email": "founder@ipseipsaipsum.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Singapore (Tanjong Pagar)"
+  },
+  {
+    "business": "Capsule Arts",
+    "founder": "Deepa",
+    "website": "https://capsulearts.com",
+    "handle": "capsulearts",
+    "all_handles": [
+      "capsulearts"
+    ],
+    "email": "info@capsulearts.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Dubai (Al Quoz)"
+  },
+  {
+    "business": "Miaja Design Group",
+    "founder": "Isabelle",
+    "website": "https://miajadesigngroup.com",
+    "handle": "miajadesigngroup",
+    "all_handles": [
+      "miajadesigngroup"
+    ],
+    "email": "info@miajadesigngroup.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Singapore (Orchard)"
+  },
+  {
+    "business": "Craft Axis",
+    "founder": "Darren",
+    "website": "https://craftaxis.com.sg",
+    "handle": "craftaxissg",
+    "all_handles": [
+      "craftaxissg"
+    ],
+    "email": "info@craftaxis.com.sg",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Singapore (Orchard)"
+  },
+  {
+    "business": "Table Matters",
+    "founder": "Gary",
+    "website": "https://tablematters.sg",
+    "handle": "tablematterssg",
+    "all_handles": [
+      "tablematterssg"
+    ],
+    "email": "visitme@tablematters.sg",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Singapore (Tanjong Pagar)"
+  },
+  {
+    "business": "Indigo Living Bespoke",
+    "founder": "John",
+    "website": "https://indigo-living.com",
+    "handle": "indigo_living",
+    "all_handles": [
+      "indigo_living"
+    ],
+    "email": "onlinehk@indigo-living.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "The Design Abode",
+    "founder": "Evelyn",
+    "website": "https://thedesignabode.com",
+    "handle": "thedesignabode",
+    "all_handles": [
+      "thedesignabode"
+    ],
+    "email": "info@thedesignabode.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Singapore (Tiong Bahru)"
+  },
+  {
+    "business": "Zero9",
+    "founder": "Prashant",
+    "website": "https://zero9.in",
+    "handle": "zero9.in",
+    "all_handles": [
+      "zero9.in"
+    ],
+    "email": "info@zero9.in",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Mumbai"
+  },
+  {
+    "business": "LAAB Architects",
+    "founder": "Otto",
+    "website": "https://laab.pro",
+    "handle": "laabpro",
+    "all_handles": [
+      "laabpro"
+    ],
+    "email": "hello@laab.pro",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Sheung Wan)"
+  },
+  {
+    "business": "MuseLAB",
+    "founder": "Jasem",
+    "website": "https://muselab.in",
+    "handle": "muse.lab",
+    "all_handles": [
+      "muse.lab"
+    ],
+    "email": "curious@muselab.in",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Mumbai"
+  },
+  {
+    "business": "CL3 Architects",
+    "founder": "William",
+    "website": "https://cl3.com",
+    "handle": "cl3architects",
+    "all_handles": [
+      "cl3architects"
+    ],
+    "email": "info@cl3.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Wong Chuk Hang)"
+  },
+  {
+    "business": "Studio Saransh",
+    "founder": "Kavanh",
+    "website": "https://studiosaransh.com",
+    "handle": "studio_saransh",
+    "all_handles": [
+      "studio_saransh"
+    ],
+    "email": "info@studiosaransh.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Ahmedabad"
+  },
+  {
+    "business": "Modo Designs",
+    "founder": "Arpan",
+    "website": "https://mododesigns.co.in",
+    "handle": "mododesigns.arpanshah",
+    "all_handles": [
+      "mododesigns.arpanshah"
+    ],
+    "email": "info@mododesigns.co.in",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Ahmedabad"
+  },
+  {
+    "business": "Malik Architecture",
+    "founder": "Kamal",
+    "website": "https://malikarchitecture.com",
+    "handle": "malik_architecture",
+    "all_handles": [
+      "malik_architecture"
+    ],
+    "email": "media@malikarchitecture.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Mumbai"
+  },
+  {
+    "business": "Objectry",
+    "founder": "Aanchal",
+    "website": "https://objectry.com",
+    "handle": "objectry",
+    "all_handles": [
+      "objectry"
+    ],
+    "email": "studio@objectry.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "South Delhi"
+  },
+  {
+    "business": "OMA Hong Kong",
+    "founder": "David",
+    "website": "https://oma.com",
+    "handle": "oma.eu",
+    "all_handles": [
+      "oma.eu",
+      "omanewyork"
+    ],
+    "email": "info@oma.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Indigo Architects",
+    "founder": "Mausami",
+    "website": "https://indigo-architects.com",
+    "handle": "indigoarchitects",
+    "all_handles": [
+      "indigoarchitects"
+    ],
+    "email": "info@indigo-architects.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Ahmedabad"
+  },
+  {
+    "business": "Openideas Architects",
+    "founder": "Monish",
+    "website": "https://openideas.co.in",
+    "handle": "oi_architects",
+    "all_handles": [
+      "oi_architects"
+    ],
+    "email": "info@openideas.co.in",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Ahmedabad"
+  },
+  {
+    "business": "Pinakin Studio",
+    "founder": "Pinakin",
+    "website": "https://pinakin.co.in",
+    "handle": "pinakintechnologysolutions",
+    "all_handles": [
+      "pinakintechnologysolutions"
+    ],
+    "email": "info@pinakin.co.in",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Mumbai"
+  },
+  {
+    "business": "Design Combine",
+    "founder": "Kiran",
+    "website": "https://designcombine.com",
+    "handle": "designcombine",
+    "all_handles": [
+      "designcombine"
+    ],
+    "email": "info@designcombine.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangalore"
+  },
+  {
+    "business": "DWP Bangkok",
+    "founder": "Brenton",
+    "website": "https://dwp.com",
+    "handle": "dwp_design",
+    "all_handles": [
+      "dwp_design"
+    ],
+    "email": "info@dwp.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Bangkok (Sathorn)"
+  },
+  {
+    "business": "AKDA / Amit Khanna Design",
+    "founder": "Amit",
+    "website": "https://akda.in",
+    "handle": "akdaoffice",
+    "all_handles": [
+      "akdaoffice"
+    ],
+    "email": "mail@akda.in",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "South Delhi"
+  },
+  {
+    "business": "Kitt.Ta.Khon",
+    "founder": "Teerapoj",
+    "website": "https://kitt-ta-khon.com",
+    "handle": "kitt.ta.khon",
+    "all_handles": [
+      "kitt.ta.khon"
+    ],
+    "email": "kitt.ta.khon@gmail.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Bangkok (Thonglor)"
+  },
+  {
+    "business": "Talati and Partners",
+    "founder": "Phillip",
+    "website": "https://talatiandpartners.com",
+    "handle": "talatiandpartners",
+    "all_handles": [
+      "talatiandpartners"
+    ],
+    "email": "info@talatiandpartners.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Mumbai"
+  },
+  {
+    "business": "Salient Design Studio",
+    "founder": "Vivek",
+    "website": "https://salientdesignstudio.com",
+    "handle": "salient_architects",
+    "all_handles": [
+      "salient_architects"
+    ],
+    "email": "info@salientdesignstudio.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Kolkata"
+  },
+  {
+    "business": "Strauss Furniture",
+    "founder": "Tony",
+    "website": "https://strauss.tw",
+    "handle": "strauss_europe",
+    "all_handles": [
+      "strauss_europe"
+    ],
+    "email": "info@strauss.de",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Taichung"
+  },
+  {
+    "business": "Aedas Hong Kong",
+    "founder": "Keith",
+    "website": "https://aedas.com",
+    "handle": "aedas_architects",
+    "all_handles": [
+      "aedas_architects"
+    ],
+    "email": "info@aedas.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Tanoti Crafts",
+    "founder": "Jacqueline",
+    "website": "https://tanoticrafts.com",
+    "handle": "tanoticrafts",
+    "all_handles": [
+      "tanoticrafts"
+    ],
+    "email": "hello@tanoticrafts.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Kuala Lumpur (KLCC)"
+  },
+  {
+    "business": "Hasan Surgery Aesthetic Center",
+    "founder": "Hasan",
+    "website": "https://hasansurgery.com",
+    "handle": "hasansurgery",
+    "all_handles": [
+      "hasansurgery"
+    ],
+    "email": "info@hasansurgery.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Healthcare City), UAE"
+  },
+  {
+    "business": "B+H Architects Hong Kong",
+    "founder": "Karen",
+    "website": "https://bharchitects.com",
+    "handle": "bh_architects",
+    "all_handles": [
+      "bh_architects"
+    ],
+    "email": "info@bharchitects.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Aesthetics International",
+    "founder": "Jaffer",
+    "website": "https://aesthetics.ae",
+    "handle": "aesthetics.dubai",
+    "all_handles": [
+      "aesthetics.dubai",
+      "reel"
+    ],
+    "email": "info@aesthetics.ae",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Al Wasl Road / Jumeirah), UAE"
+  },
+  {
+    "business": "GDP Architects",
+    "founder": "Kamil",
+    "website": "https://gdparchitects.com",
+    "handle": "gdparchitects",
+    "all_handles": [
+      "gdparchitects"
+    ],
+    "email": "info@gdparchitects.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Kuala Lumpur (Bukit Damansara)"
+  },
+  {
+    "business": "JC Architecture",
+    "founder": "Johnny",
+    "website": "https://johnnychiu.com",
+    "handle": "junnimotion",
+    "all_handles": [
+      "junnimotion"
+    ],
+    "email": "johnny@johnnychiu.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Taipei (Xinyi)"
+  },
+  {
+    "business": "Living Stone Studio",
+    "founder": "Chung-Lin",
+    "website": "https://livingstone.tw",
+    "handle": "livingstone.tw",
+    "all_handles": [
+      "livingstone.tw"
+    ],
+    "email": "info@livingstone.tw",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Tainan"
+  },
+  {
+    "business": "Ivory Aesthetics Clinic",
+    "founder": "Nathan",
+    "website": "https://ivoryaesthetics.com",
+    "handle": "ivoryaestheticsclinic",
+    "all_handles": [
+      "ivoryaestheticsclinic"
+    ],
+    "email": "info@ivoryaesthetics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Al Wasl Road / Jumeirah), UAE"
+  },
+  {
+    "business": "FabCafe Bangkok",
+    "founder": "Kalaya",
+    "website": "https://fabcafe.com/bangkok",
+    "handle": "fabcafebangkok",
+    "all_handles": [
+      "fabcafebangkok",
+      "fabcafekl",
+      "fabcafe_tokyo",
+      "fabcafe.kyoto",
+      "fabcafehida",
+      "fabcafe_nagoya",
+      "fabcafe_chiba",
+      "fabcafe_taipei",
+      "fabcafehk",
+      "fabcafe.global"
+    ],
+    "email": "info.bkk@fabcafe.com",
+    "field": "Bespoke Furniture & Joinery",
+    "tier": "High Ticket",
+    "location": "Bangkok (Thonglor)"
+  },
+  {
+    "business": "Aestheticon Plastic Surgery",
+    "founder": "Gaby",
+    "website": "https://aestheticon.ae",
+    "handle": "aestheticon_dubai",
+    "all_handles": [
+      "aestheticon_dubai"
+    ],
+    "email": "info@aestheticon.ae",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Healthcare City), UAE"
+  },
+  {
+    "business": "Enter Projects Asia",
+    "founder": "Patrick",
+    "website": "https://enterprojects.net",
+    "handle": "patrickeane",
+    "all_handles": [
+      "patrickeane"
+    ],
+    "email": "info@enterprojects.net",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangkok (Sathorn)"
+  },
+  {
+    "business": "InDetail Design Studio",
+    "founder": "Howard",
+    "website": "https://indetailstudio.com",
+    "handle": "indetailstudio_",
+    "all_handles": [
+      "indetailstudio_"
+    ],
+    "email": "info@indetailstudio.com",
+    "field": "Interior Design Studio",
+    "tier": "High Ticket",
+    "location": "Taichung"
+  },
+  {
+    "business": "WDA Architects",
+    "founder": "Wooi",
+    "website": "https://wda-architects.com",
+    "handle": "wda_architects",
+    "all_handles": [
+      "wda_architects"
+    ],
+    "email": "studio@wda-architects.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Kuala Lumpur (Bangsar)"
+  },
+  {
+    "business": "Beverly Hills Wellness & Aesthetic",
+    "founder": "Gabriel",
+    "website": "https://bhwaa.com",
+    "handle": "beverlyhillswellnessaesthetics",
+    "all_handles": [
+      "beverlyhillswellnessaesthetics"
+    ],
+    "email": "info@bhwaa.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Downtown / Healthcare City), UAE"
+  },
+  {
+    "business": "Eden Derma Clinic Dubai",
+    "founder": "Tarek",
+    "website": "https://edenderma.com",
+    "handle": "eden.clinic.dubai",
+    "all_handles": [
+      "eden.clinic.dubai"
+    ],
+    "email": "contact@edenderma.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Healthcare City), UAE"
+  },
+  {
+    "business": "Design Collective Architects",
+    "founder": "Chan",
+    "website": "https://dca.com.my",
+    "handle": "designcollectivearchitects",
+    "all_handles": [
+      "designcollectivearchitects"
+    ],
+    "email": "info@dca.com.my",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Kuala Lumpur (Bangsar)"
+  },
+  {
+    "business": "Cleveland Clinic Abu Dhabi Dermatology & Aesthetics",
+    "founder": "Nicole",
+    "website": "https://clevelandclinicabudhabi.ae",
+    "handle": "clevelandclinicabudhabi",
+    "all_handles": [
+      "clevelandclinicabudhabi"
+    ],
+    "email": "info@clevelandclinicabudhabi.ae",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Abu Dhabi (Al Maryah Island), UAE"
+  },
+  {
+    "business": "Nova Clinic by Dr. Jaffer Khan",
+    "founder": "Jaffer",
+    "website": "https://thenovaclinic.com",
+    "handle": "thenovaclinic.ae",
+    "all_handles": [
+      "thenovaclinic.ae",
+      "reel"
+    ],
+    "email": "info@thenovaclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Jumeirah / Healthcare City), UAE"
+  },
+  {
+    "business": "Baan Puripuri",
+    "founder": "Pajroat",
+    "website": "https://baanpuripuri.com",
+    "handle": "baanpuripuri",
+    "all_handles": [
+      "baanpuripuri"
+    ],
+    "email": "info@baanpuripuri.com",
+    "field": "Architecture",
+    "tier": "High Ticket",
+    "location": "Bangkok (Thonglor)"
+  },
+  {
+    "business": "Pastels Aesthetic & Skin Clinic",
+    "founder": "Steven",
+    "website": "https://pastels-salon.com",
+    "handle": "pastelssalon",
+    "all_handles": [
+      "pastelssalon"
+    ],
+    "email": "info@pastels-salon.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Jumeirah), UAE"
+  },
+  {
+    "business": "Perfect Health Medical Center",
+    "founder": "Omar",
+    "website": "https://perfecthealth.ae",
+    "handle": "perfect__health_trading",
+    "all_handles": [
+      "perfect__health_trading",
+      "tafaseelagency"
+    ],
+    "email": "perfecthealthtrading@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Abu Dhabi (Al Khalidiyah), UAE"
+  },
+  {
+    "business": "The Aesthetics Medical Clinic",
+    "founder": "Lynette",
+    "website": "https://tamc.com.sg",
+    "handle": "sgtamc",
+    "all_handles": [
+      "sgtamc"
+    ],
+    "email": "info@tamc.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Paragon Orchard Road)"
+  },
+  {
+    "business": "Al Emadi Hospital Aesthetic Clinic",
+    "founder": "Mohamed",
+    "website": "https://alemadihospital.com.qa",
+    "handle": "alemadi.hospital",
+    "all_handles": [
+      "alemadi.hospital"
+    ],
+    "email": "info@alemadihospital.com.qa",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Doha (Al Hilal / West Bay), Qatar"
+  },
+  {
+    "business": "Dermamed Clinic Dubai",
+    "founder": "Firas",
+    "website": "https://dermamed.ae",
+    "handle": "dermamed_clinic",
+    "all_handles": [
+      "dermamed_clinic"
+    ],
+    "email": "info@dermamed.ae",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Healthcare City), UAE"
+  },
+  {
+    "business": "Cove Aesthetic Clinic",
+    "founder": "Rachel",
+    "website": "https://coveaestheticclinic.com.sg",
+    "handle": "coveaestheticclinic",
+    "all_handles": [
+      "coveaestheticclinic"
+    ],
+    "email": "hello@coveaesthetics.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Wheelock Place Orchard Road)"
+  },
+  {
+    "business": "Beverly Clinics Jeddah",
+    "founder": "Mazen",
+    "website": "https://beverlyclinics.com",
+    "handle": "sgh.group",
+    "all_handles": [
+      "sgh.group"
+    ],
+    "email": "info@beverlyclinics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Jeddah (Al Rawdah), Saudi Arabia"
+  },
+  {
+    "business": "V Medical Aesthetics Clinic",
+    "founder": "Ian",
+    "website": "https://vaestheticsclinic.com.sg",
+    "handle": "vaestheticsclinic",
+    "all_handles": [
+      "vaestheticsclinic",
+      "vaestheticsclinics"
+    ],
+    "email": "enquiry@vaestheticsclinic.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Orchard Road)"
+  },
+  {
+    "business": "Maison Lut\u00e9tia Clinic Dubai",
+    "founder": "Antoine",
+    "website": "https://maisonlutetia.com",
+    "handle": "maison_lutetia",
+    "all_handles": [
+      "maison_lutetia"
+    ],
+    "email": "info@maisonlutetia.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (DIFC / Downtown), UAE"
+  },
+  {
+    "business": "Harley Street Medical Centre Abu Dhabi",
+    "founder": "Mansoor",
+    "website": "https://hsmc.ae",
+    "handle": "harleystreetmedicalcentre",
+    "all_handles": [
+      "harleystreetmedicalcentre"
+    ],
+    "email": "info@hsmc.ae",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Abu Dhabi (Marina Village / Al Bateen), UAE"
+  },
+  {
+    "business": "Canadian Medical Center Abu Dhabi",
+    "founder": "Fadi",
+    "website": "https://canadiancmc.com",
+    "handle": "canadiancmc",
+    "all_handles": [
+      "canadiancmc"
+    ],
+    "email": "infocmc@canadiancmc.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Abu Dhabi (Al Bateen), UAE"
+  },
+  {
+    "business": "Dr. Kayle Aesthetic Clinic",
+    "founder": "Dany",
+    "website": "https://drkayleclinic.com",
+    "handle": "drkayleclinic",
+    "all_handles": [
+      "drkayleclinic"
+    ],
+    "email": "info@drkayleclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Al Wasl Road / Jumeirah), UAE"
+  },
+  {
+    "business": "Become Aesthetics Clinic",
+    "founder": "Law",
+    "website": "https://becomeaesthetics.com.sg",
+    "handle": "becomeaestheticsclinic",
+    "all_handles": [
+      "becomeaestheticsclinic"
+    ],
+    "email": "enquiry@becomeaesthetics.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Novena Specialist Center)"
+  },
+  {
+    "business": "Doha Clinic Hospital Plastic Surgery",
+    "founder": "Eyad",
+    "website": "https://dohaclinichospital.com",
+    "handle": "dohachospital",
+    "all_handles": [
+      "dohachospital"
+    ],
+    "email": "info@dchqatar.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Doha (Al Mirqab), Qatar"
+  },
+  {
+    "business": "Bio Aesthetic Laser Clinic",
+    "founder": "Jasper",
+    "website": "https://baclinic.sg",
+    "handle": "bioaesthetic.clinic",
+    "all_handles": [
+      "bioaesthetic.clinic"
+    ],
+    "email": "hello@bioaesthetic.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Palais Renaissance Orchard Road)"
+  },
+  {
+    "business": "Blue Tree Clinics Dubai",
+    "founder": "Mehmood",
+    "website": "https://bluetreeclinics.com",
+    "handle": "bluetreeclinics",
+    "all_handles": [
+      "bluetreeclinics"
+    ],
+    "email": "info@bluetreeclinics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Dubai (Al Wasl Road / Jumeirah), UAE"
+  },
+  {
+    "business": "Cutis Medical Laser Clinics",
+    "founder": "Sylvia",
+    "website": "https://cutislaserclinics.com",
+    "handle": "cutislaserclinics",
+    "all_handles": [
+      "cutislaserclinics"
+    ],
+    "email": "cutis@cutislaserclinics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Scotts Medical Center Orchard)"
+  },
+  {
+    "business": "NuMe Aesthetic Medical Centre",
+    "founder": "Andy",
+    "website": "https://nume.com.hk",
+    "handle": "nume_medical",
+    "all_handles": [
+      "nume_medical"
+    ],
+    "email": "info@nume.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Ensoul Medical Clinic",
+    "founder": "Kenneth",
+    "website": "https://ensoulclinic.com",
+    "handle": "ensoulmedicalclinic",
+    "all_handles": [
+      "ensoulmedicalclinic"
+    ],
+    "email": "info@ensoulclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Orchard Medical Specialists)"
+  },
+  {
+    "business": "OASIS Medical Aesthetic Clinic",
+    "founder": "Salina",
+    "website": "https://oasismedicalcentre.com",
+    "handle": "oasisgrouphk",
+    "all_handles": [
+      "oasisgrouphk"
+    ],
+    "email": "contact@oasis-group.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Glow Laser & Aesthetic Clinic",
+    "founder": "Bernard",
+    "website": "https://glowspa.hk",
+    "handle": "glowhongkong",
+    "all_handles": [
+      "glowhongkong"
+    ],
+    "email": "info@glowspa.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Derma Circles Delhi",
+    "founder": "Prateek",
+    "website": "https://dermacircles.com",
+    "handle": "derma.circles",
+    "all_handles": [
+      "derma.circles"
+    ],
+    "email": "care@dermacircles.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (South Extension), India"
+  },
+  {
+    "business": "Dadu Medical Centre",
+    "founder": "Nivedita",
+    "website": "https://dadumedicalcentre.com",
+    "handle": "dadumedicalcentre",
+    "all_handles": [
+      "dadumedicalcentre"
+    ],
+    "email": "info@dadumedicalcentre.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (Vasant Vihar / Rajouri), India"
+  },
+  {
+    "business": "Dermapuritys Delhi",
+    "founder": "Lalita",
+    "website": "https://dermapuritys.com",
+    "handle": "dermapuritys",
+    "all_handles": [
+      "dermapuritys"
+    ],
+    "email": "info@dermapuritys.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (Greater Kailash), India"
+  },
+  {
+    "business": "Aspetar Sports Medicine & Aesthetic Dermatology",
+    "founder": "Celeste",
+    "website": "https://aspetar.com",
+    "handle": "aspetar",
+    "all_handles": [
+      "aspetar"
+    ],
+    "email": "info@aspetar.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Doha (Aspire Zone), Qatar"
+  },
+  {
+    "business": "Skinique Medical Aesthetics",
+    "founder": "Steven",
+    "website": "https://skinique.com.hk",
+    "handle": "skiniquehk",
+    "all_handles": [
+      "skiniquehk"
+    ],
+    "email": "sales@skinique.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "A-Plus Beauty Medical Centre",
+    "founder": "Patrick",
+    "website": "https://a-plusbeauty.com.hk",
+    "handle": "aplusbeauty",
+    "all_handles": [
+      "aplusbeauty"
+    ],
+    "email": "info@a-plusbeauty.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Tsim Sha Tsui)"
+  },
+  {
+    "business": "Rexults Clinic",
+    "founder": "EP",
+    "website": "https://rexultsclinic.com",
+    "handle": "rexultsclinic",
+    "all_handles": [
+      "rexultsclinic"
+    ],
+    "email": "info@rexultsclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Tong Building Orchard Road)"
+  },
+  {
+    "business": "Medilase Skin & Laser HK",
+    "founder": "Colin",
+    "website": "https://medilase.com.hk",
+    "handle": "medilase_hk",
+    "all_handles": [
+      "medilase_hk"
+    ],
+    "email": "info@medilase.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Causeway Bay)"
+  },
+  {
+    "business": "Soul Skin Clinic Chennai",
+    "founder": "Maya",
+    "website": "https://soulskinclinic.com",
+    "handle": "soul.skinclinic",
+    "all_handles": [
+      "soul.skinclinic"
+    ],
+    "email": "ssclinicllp1@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Chennai (Nungambakkam), India"
+  },
+  {
+    "business": "Harmony Aesthetics Clinic",
+    "founder": "Wilson",
+    "website": "https://harmonyaesthetics.sg",
+    "handle": "harmonyaestheticsclinic",
+    "all_handles": [
+      "harmonyaestheticsclinic"
+    ],
+    "email": "info@harmonytherapeutics.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Novena Specialist Center)"
+  },
+  {
+    "business": "Eeva Medical Aesthetic Clinic",
+    "founder": "Grace",
+    "website": "https://eevamedicalclinic.com",
+    "handle": "eevamedicalaesthetic",
+    "all_handles": [
+      "eevamedicalaesthetic"
+    ],
+    "email": "info@eevamedicalclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Raffles Place / Novena)"
+  },
+  {
+    "business": "Masterpiece Hospital Bangkok",
+    "founder": "Raweewat",
+    "website": "https://masterpiecehospital.com",
+    "handle": "masterpiece_hospital",
+    "all_handles": [
+      "masterpiece_hospital"
+    ],
+    "email": "info@masterpiecehospital.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Siam / Sukhumvit), Thailand"
+  },
+  {
+    "business": "Retens Medical Aesthetic",
+    "founder": "Stephanie",
+    "website": "https://retens.hk",
+    "handle": "retens_medical",
+    "all_handles": [
+      "retens_medical"
+    ],
+    "email": "info@retens.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Tsim Sha Tsui / Central)"
+  },
+  {
+    "business": "Dermastation Aesthetic Clinic Delhi",
+    "founder": "Sandeep",
+    "website": "https://dermastation.com",
+    "handle": "dermastation",
+    "all_handles": [
+      "dermastation"
+    ],
+    "email": "info@dermastation.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (Janakpuri / South Delhi), India"
+  },
+  {
+    "business": "Aayna Clinic Delhi",
+    "founder": "Simal",
+    "website": "https://aaynaclinic.com",
+    "handle": "aaynaclinic_official",
+    "all_handles": [
+      "aaynaclinic_official"
+    ],
+    "email": "info@aaynaclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (Mehrauli / Khan Market), India"
+  },
+  {
+    "business": "West Bay Medicare Cosmetic Unit",
+    "founder": "Hazem",
+    "website": "https://westbaymedicare.com",
+    "handle": "westbaymedicare",
+    "all_handles": [
+      "westbaymedicare"
+    ],
+    "email": "info@westbaymedicare.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Doha (Gate Mall West Bay), Qatar"
+  },
+  {
+    "business": "Alive Wellness Clinics Delhi",
+    "founder": "Chiranjiv",
+    "website": "https://alivewellnessclinics.com",
+    "handle": "alivewellnessclinics",
+    "all_handles": [
+      "alivewellnessclinics"
+    ],
+    "email": "info@alivewellnessclinics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Delhi (Greater Kailash), India"
+  },
+  {
+    "business": "Dermiq Skin Clinic Hyderabad",
+    "founder": "Sridhar",
+    "website": "https://dermiqclinic.com",
+    "handle": "dermiqclinic",
+    "all_handles": [
+      "dermiqclinic"
+    ],
+    "email": "info@dermiqclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hyderabad (Jubilee Hills), India"
+  },
+  {
+    "business": "Layers Clinics Hyderabad",
+    "founder": "Rohit",
+    "website": "https://layersclinics.com",
+    "handle": "layersclinics",
+    "all_handles": [
+      "layersclinics"
+    ],
+    "email": "info@layersclinics.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hyderabad (Banjara Hills), India"
+  },
+  {
+    "business": "Dr Kevin Chua Medical & Aesthetics",
+    "founder": "Kevin",
+    "website": "https://kevinchua.com.sg",
+    "handle": "drkevinchuaclinic",
+    "all_handles": [
+      "drkevinchuaclinic"
+    ],
+    "email": "dr@kevinchua.com.sg",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Orchard Road)"
+  },
+  {
+    "business": "APAX Medical & Aesthetic Clinic",
+    "founder": "Moses",
+    "website": "https://apaxmedical.com",
+    "handle": "apaxskinsg",
+    "all_handles": [
+      "apaxskinsg"
+    ],
+    "email": "info@apaxmedical.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Singapore (Novena Medical Center)"
+  },
+  {
+    "business": "Pretty Medical Aesthetics",
+    "founder": "Jeffrey",
+    "website": "https://prettymedical.com.hk",
+    "handle": "prettymedical",
+    "all_handles": [
+      "prettymedical"
+    ],
+    "email": "info@prettymedical.com.hk",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Causeway Bay)"
+  },
+  {
+    "business": "Dr Reborn Medical Aesthetic",
+    "founder": "Kenny",
+    "website": "https://dr-reborn.com",
+    "handle": "drrebornofficial",
+    "all_handles": [
+      "drrebornofficial"
+    ],
+    "email": "info@dr-reborn.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "Milada Plastic Surgery Hospital",
+    "founder": "Greechart",
+    "website": "https://miladahospital.com",
+    "handle": "milada_hospital",
+    "all_handles": [
+      "milada_hospital"
+    ],
+    "email": "info@miladahospital.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Bangkok Central), Thailand"
+  },
+  {
+    "business": "Phuket Plastic Surgery Institute (PPSI)",
+    "founder": "Sanguan",
+    "website": "https://phuketpsi.com",
+    "handle": "ppsiphuket",
+    "all_handles": [
+      "ppsiphuket"
+    ],
+    "email": "info@phuketpsi.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Phuket (Siriroj Phuket), Thailand"
+  },
+  {
+    "business": "Maya Clinic Pune",
+    "founder": "Maya",
+    "website": "https://mayaclinic.in",
+    "handle": "drrahul.mayaclinic",
+    "all_handles": [
+      "drrahul.mayaclinic"
+    ],
+    "email": "contact@medilab.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Pune (Kalyani Nagar), India"
+  },
+  {
+    "business": "ME Clinic Kuala Lumpur",
+    "founder": "David",
+    "website": "https://meclinic.com.my",
+    "handle": "meclinicmalaysia",
+    "all_handles": [
+      "meclinicmalaysia",
+      "meclinictimessquare"
+    ],
+    "email": "info@meclinic.com.my",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Berjaya Times Square / KLCC), Malaysia"
+  },
+  {
+    "business": "Aesthe Clinic Bangkok",
+    "founder": "Piyawat",
+    "website": "https://aestheclinic.com",
+    "handle": "teepublic",
+    "all_handles": [
+      "teepublic"
+    ],
+    "email": "info@aestheclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit Soi 55), Thailand"
+  },
+  {
+    "business": "Skin & Scalp Clinic Hyderabad",
+    "founder": "Padmaja",
+    "website": "https://skinandscalpclinic.com",
+    "handle": "rkeclinic",
+    "all_handles": [
+      "rkeclinic",
+      "reel"
+    ],
+    "email": "info@skinandscalpclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hyderabad (Banjara Hills), India"
+  },
+  {
+    "business": "The Klinique Sukhumvit",
+    "founder": "Apirak",
+    "website": "https://theklinique.com",
+    "handle": "theklinique",
+    "all_handles": [
+      "theklinique"
+    ],
+    "email": "info@theklinique.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Siam Paragon / Sukhumvit), Thailand"
+  },
+  {
+    "business": "Kamol Cosmetic Hospital",
+    "founder": "Kamol",
+    "website": "https://kamolhospital.com",
+    "handle": "kamolhospital",
+    "all_handles": [
+      "kamolhospital"
+    ],
+    "email": "customercare@kamolhospital.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit / Ladprao), Thailand"
+  },
+  {
+    "business": "BLS Surgery Center",
+    "founder": "Suphakorn",
+    "website": "https://bls-surgerycenter.com",
+    "handle": "blssurgerycenter",
+    "all_handles": [
+      "blssurgerycenter"
+    ],
+    "email": "bls.surgery.center@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Thonglor / Sukhumvit), Thailand"
+  },
+  {
+    "business": "Preecha Aesthetic Institute (PAI)",
+    "founder": "Preecha",
+    "website": "https://pai.co.th",
+    "handle": "paiclinic",
+    "all_handles": [
+      "paiclinic"
+    ],
+    "email": "consult@pai.co.th",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit / Rama IX), Thailand"
+  },
+  {
+    "business": "Meridian Clinic Kuala Lumpur",
+    "founder": "Low",
+    "website": "https://meridianclinic.com.my",
+    "handle": "meridianclinic",
+    "all_handles": [
+      "meridianclinic"
+    ],
+    "email": "info@meridianclinic.com.my",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Solaris Mont Kiara), Malaysia"
+  },
+  {
+    "business": "Cosmacare Clinic Bangkok",
+    "founder": "Chaiwat",
+    "website": "https://cosmacareclinic.com",
+    "handle": "cosmacareclinic",
+    "all_handles": [
+      "cosmacareclinic"
+    ],
+    "email": "info@cosmacareclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit), Thailand"
+  },
+  {
+    "business": "Sliq Clinic Kuala Lumpur",
+    "founder": "Steve",
+    "website": "https://sliqclinic.com",
+    "handle": "sliqclinic",
+    "all_handles": [
+      "sliqclinic"
+    ],
+    "email": "info@sliqclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Bangsar South), Malaysia"
+  },
+  {
+    "business": "Dr. Chong Clinic KL",
+    "founder": "Chong",
+    "website": "https://drchongclinic.com",
+    "handle": "drchongclinic",
+    "all_handles": [
+      "drchongclinic"
+    ],
+    "email": "info@drchongclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Kepong / Bangsar), Malaysia"
+  },
+  {
+    "business": "MedConsult Clinic Bangkok",
+    "founder": "Donna",
+    "website": "https://medconsultasia.com",
+    "handle": "medconsultclinic",
+    "all_handles": [
+      "medconsultclinic"
+    ],
+    "email": "customer@medconsultasia.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Thonglor Sukhumvit), Thailand"
+  },
+  {
+    "business": "F Clinic Sukhumvit",
+    "founder": "Fon",
+    "website": "https://fclinic-beauty.com",
+    "handle": "f_clinic",
+    "all_handles": [
+      "f_clinic"
+    ],
+    "email": "info@fclinic-beauty.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit Soi 3/1), Thailand"
+  },
+  {
+    "business": "Ghatiwala Jewellers",
+    "founder": "Abhishek",
+    "website": "https://ghatiwala.com",
+    "handle": "ghatiwalajewellers",
+    "all_handles": [
+      "ghatiwalajewellers"
+    ],
+    "email": "info@ghatiwala.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (C-Scheme), India"
+  },
+  {
+    "business": "Surana Jewellers of Jaipur",
+    "founder": "Prakash",
+    "website": "https://suranajewellers.com",
+    "handle": "suranajewellersjaipur",
+    "all_handles": [
+      "suranajewellersjaipur",
+      "reel"
+    ],
+    "email": "suranas.jaipur@gmail.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (MI Road), India"
+  },
+  {
+    "business": "JKJ Jewellers",
+    "founder": "Satyanarayan",
+    "website": "https://jkjjewellers.com",
+    "handle": "jkjjewellersofficial",
+    "all_handles": [
+      "jkjjewellersofficial"
+    ],
+    "email": "info@jkjjewellers.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (MI Road), India"
+  },
+  {
+    "business": "Silver & Art Palace",
+    "founder": "Pradeep",
+    "website": "https://silverandartpalace.com",
+    "handle": "silverandartpalace",
+    "all_handles": [
+      "silverandartpalace"
+    ],
+    "email": "info@silverandartpalace.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (Amer Road), India"
+  },
+  {
+    "business": "Bangkok Plastic Surgery Clinic",
+    "founder": "Pichet",
+    "website": "https://bangkokplasticsurgery.com",
+    "handle": "bangkokplasticsurgery1",
+    "all_handles": [
+      "bangkokplasticsurgery1"
+    ],
+    "email": "pichet@bangkokplasticsurgery.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit Soi 19), Thailand"
+  },
+  {
+    "business": "FMS Skin & Hair Clinic Hyderabad",
+    "founder": "Shailaja",
+    "website": "https://fmsskin.com",
+    "handle": "fmsskin",
+    "all_handles": [
+      "fmsskin",
+      "fmsskinandhair",
+      "reel",
+      "embed.js"
+    ],
+    "email": "info@fmsskin.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Hyderabad (Jubilee Hills), India"
+  },
+  {
+    "business": "OneDoc Medical Clinic KL",
+    "founder": "Calvin",
+    "website": "https://onedoc.com.my",
+    "handle": "onedoc.my",
+    "all_handles": [
+      "onedoc.my"
+    ],
+    "email": "info@onedoc.com.my",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Publika Mont Kiara), Malaysia"
+  },
+  {
+    "business": "Kashi Jewellers Mumbai",
+    "founder": "Shreyansh",
+    "website": "https://kashijewellers.com",
+    "handle": "kashijewellerskanpur",
+    "all_handles": [
+      "kashijewellerskanpur"
+    ],
+    "email": "corporatekashi@gmail.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Mumbai (Bandra West), India"
+  },
+  {
+    "business": "Xeoul Clinic Kuala Lumpur",
+    "founder": "Ronald",
+    "website": "https://xeoulclinic.com",
+    "handle": "xeoulclinic",
+    "all_handles": [
+      "xeoulclinic"
+    ],
+    "email": "info@xeoulclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Subang Jaya / Damansara), Malaysia"
+  },
+  {
+    "business": "Lyfe Clinic Kuala Lumpur",
+    "founder": "Jason",
+    "website": "https://lyfeclinic.com",
+    "handle": "lyfeclinic",
+    "all_handles": [
+      "lyfeclinic"
+    ],
+    "email": "info@lyfeclinic.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Kuala Lumpur (Damansara), Malaysia"
+  },
+  {
+    "business": "Just Make Plastic Surgery Clinic",
+    "founder": "Dennis",
+    "website": "https://justmake.tw",
+    "handle": "justmake_plastic_clinic",
+    "all_handles": [
+      "justmake_plastic_clinic"
+    ],
+    "email": "info@justmake.tw",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Taipei (Zhongxiao East Road), Taiwan"
+  },
+  {
+    "business": "Mirari High Jewellery",
+    "founder": "Mira",
+    "website": "https://mirari.com",
+    "handle": "mirarijewels",
+    "all_handles": [
+      "mirarijewels"
+    ],
+    "email": "demo@example.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (Mehrauli), India"
+  },
+  {
+    "business": "Notandas Jewellers Delhi",
+    "founder": "Sanjay",
+    "website": "https://notandas.com",
+    "handle": "notandas_jewellers",
+    "all_handles": [
+      "notandas_jewellers"
+    ],
+    "email": "info@notandas.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (South Extension II), India"
+  },
+  {
+    "business": "Wansiri Aesthetic Hospital",
+    "founder": "Saran",
+    "website": "https://wansirihospital.com",
+    "handle": "wansirihospital",
+    "all_handles": [
+      "wansirihospital"
+    ],
+    "email": "info@wansirihospital.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Rama III / Sukhumvit), Thailand"
+  },
+  {
+    "business": "D. Khushalbhai Jewellers",
+    "founder": "Deepak",
+    "website": "https://dkhushalbhai.com",
+    "handle": "d_khushalbhai_jewellers_vesu",
+    "all_handles": [
+      "d_khushalbhai_jewellers_vesu"
+    ],
+    "email": "info@dkhushalbhai.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Surat (Athwa Lines), India"
+  },
+  {
+    "business": "Gemco Designs Atelier",
+    "founder": "Sudhir",
+    "website": "https://gemcodesigns.com",
+    "handle": "gemco_designs",
+    "all_handles": [
+      "gemco_designs"
+    ],
+    "email": "info@gemcodesigns.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Jaipur (Sitapura), India"
+  },
+  {
+    "business": "Rosentiques Fine Jewellery",
+    "founder": "Puneet",
+    "website": "https://rosentiques.com",
+    "handle": "rosentiquesjewellery",
+    "all_handles": [
+      "rosentiquesjewellery"
+    ],
+    "email": "info@rosentiques.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (Defence Colony), India"
+  },
+  {
+    "business": "Shree Jewellers Hyderabad",
+    "founder": "Dinesh",
+    "website": "https://shreejewellers.com",
+    "handle": "shreejewellersofficial",
+    "all_handles": [
+      "shreejewellersofficial"
+    ],
+    "email": "info@shreejewellers.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hyderabad (Banjara Hills), India"
+  },
+  {
+    "business": "Minawala Fine Jewels",
+    "founder": "Kishor",
+    "website": "https://minawala.com",
+    "handle": "minawala_jewellers",
+    "all_handles": [
+      "minawala_jewellers"
+    ],
+    "email": "info@minawala.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Mumbai (Santacruz West), India"
+  },
+  {
+    "business": "Suhani Pittie Contemporary Jewellery",
+    "founder": "Suhani",
+    "website": "https://suhanipittie.com",
+    "handle": "suhanipittie",
+    "all_handles": [
+      "suhanipittie"
+    ],
+    "email": "stouvant@suhanipittie.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hyderabad (Banjara Hills), India"
+  },
+  {
+    "business": "Latique Fine Jewels",
+    "founder": "Latika",
+    "website": "https://latique.in",
+    "handle": "latique.in",
+    "all_handles": [
+      "latique.in"
+    ],
+    "email": "info@latique.in",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Delhi (Mehrauli), India"
+  },
+  {
+    "business": "Vinita Michael Fine Jewellery",
+    "founder": "Vinita",
+    "website": "https://vinitamichael.com",
+    "handle": "vinitamichaeljewelcraft",
+    "all_handles": [
+      "vinitamichaeljewelcraft"
+    ],
+    "email": "info@vinitamichael.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (d3 Design District), UAE"
+  },
+  {
+    "business": "BR Designs Atelier",
+    "founder": "Dilip",
+    "website": "https://brdesigns.in",
+    "handle": "brdesigns.in",
+    "all_handles": [
+      "brdesigns.in"
+    ],
+    "email": "info@brdesigns.in",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Surat (Ghod Dod Road), India"
+  },
+  {
+    "business": "Devji Aurum High Jewellery",
+    "founder": "Devji",
+    "website": "https://devjiaurum.com",
+    "handle": "devjiaurum",
+    "all_handles": [
+      "devjiaurum"
+    ],
+    "email": "info@devjiaurum.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (Mall of the Emirates), UAE"
+  },
+  {
+    "business": "Al Zain Jewellery Dubai",
+    "founder": "Nabeel",
+    "website": "https://alzainjewellery.com",
+    "handle": "alzainjewellery",
+    "all_handles": [
+      "alzainjewellery"
+    ],
+    "email": "info@alzainjewellery.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (The Dubai Mall), UAE"
+  },
+  {
+    "business": "La Marquise Fine Jewellery",
+    "founder": "Nishith",
+    "website": "https://lamarquisejewellery.com",
+    "handle": "lamarquisejewellery",
+    "all_handles": [
+      "lamarquisejewellery"
+    ],
+    "email": "info@lamarquisejewellery.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (DIFC / Mall of Emirates), UAE"
+  },
+  {
+    "business": "Modi Pearls Atelier",
+    "founder": "Modi",
+    "website": "https://modipearls.com",
+    "handle": "modipearls",
+    "all_handles": [
+      "modipearls"
+    ],
+    "email": "info@modipearls.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hyderabad (Charminar), India"
+  },
+  {
+    "business": "Liali Jewellery Dubai",
+    "founder": "Raeda",
+    "website": "https://lialijewellery.com",
+    "handle": "liali_jewellery",
+    "all_handles": [
+      "liali_jewellery"
+    ],
+    "email": "info@lialijewellery.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (Jumeirah Centre), UAE"
+  },
+  {
+    "business": "Hairaat Fine Jewellery",
+    "founder": "Nada",
+    "website": "https://hairaat.com",
+    "handle": "hairaat",
+    "all_handles": [
+      "hairaat"
+    ],
+    "email": "info@hairaat.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Doha (The Pearl), Qatar"
+  },
+  {
+    "business": "Lama Hourani Atelier",
+    "founder": "Lama",
+    "website": "https://lamahourani.com",
+    "handle": "lamahouranijewelry",
+    "all_handles": [
+      "lamahouranijewelry"
+    ],
+    "email": "info@lamahourani.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Dubai (d3 Design District), UAE"
+  },
+  {
+    "business": "Lelux Aesthetic Hospital",
+    "founder": "Kittisak",
+    "website": "https://leluxhospital.co.th",
+    "handle": "lelux_hospital_thailand",
+    "all_handles": [
+      "lelux_hospital_thailand"
+    ],
+    "email": "leluxhospital.th@gmail.com",
+    "field": "Doctor-led Aesthetic Clinics",
+    "tier": "High Ticket (\u00a31,500 - \u00a315,000)",
+    "location": "Bangkok (Sukhumvit), Thailand"
+  },
+  {
+    "business": "Michael Trio Bespoke",
+    "founder": "Jad",
+    "website": "https://michaeltrio.com",
+    "handle": "michaeltrio",
+    "all_handles": [
+      "michaeltrio"
+    ],
+    "email": "info@michaeltrio.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Singapore (Tanjong Pagar)"
+  },
+  {
+    "business": "Kooheji Jewellery Riyadh",
+    "founder": "Mustafa",
+    "website": "https://kooheji.net",
+    "handle": "koohejij",
+    "all_handles": [
+      "koohejij"
+    ],
+    "email": "info@kooheji.net",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Riyadh (Centria Mall), Saudi Arabia"
+  },
+  {
+    "business": "Shobha Shringar Jewellers",
+    "founder": "Snehal",
+    "website": "https://shobhashringar.com",
+    "handle": "shobhashringar",
+    "all_handles": [
+      "shobhashringar"
+    ],
+    "email": "feedback@shobhashringar.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Mumbai (Walkeshwar / Colaba), India"
+  },
+  {
+    "business": "Gems Excellence",
+    "founder": "Pawanya",
+    "website": "https://gemsexcellence.com",
+    "handle": "gemsexcellence",
+    "all_handles": [
+      "gemsexcellence"
+    ],
+    "email": "info@gemsexcellence.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "JannPaul Diamonds",
+    "founder": "Paul",
+    "website": "https://jannpaul.com",
+    "handle": "jannpaul",
+    "all_handles": [
+      "jannpaul"
+    ],
+    "email": "sales@jannpaul.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Singapore (Far East Shopping Centre Orchard)"
+  },
+  {
+    "business": "Ame Gallery",
+    "founder": "Anna",
+    "website": "https://ame-gallery.com",
+    "handle": "amegallery",
+    "all_handles": [
+      "amegallery"
+    ],
+    "email": "info@ame-gallery.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Hong Kong (Central)"
+  },
+  {
+    "business": "BellaDonna Jewelry",
+    "founder": "Bella",
+    "website": "https://belladonnajewelry.com",
+    "handle": "belladonnabangkok",
+    "all_handles": [
+      "belladonnabangkok"
+    ],
+    "email": "info@belladonnajewelry.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Silom), Thailand"
+  },
+  {
+    "business": "Diamond & Platinum Malaysia",
+    "founder": "Low",
+    "website": "https://diamondnplatinum.com",
+    "handle": "diamondnplatinum",
+    "all_handles": [
+      "diamondnplatinum"
+    ],
+    "email": "info@diamondnplatinum.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Kuala Lumpur (Bangsar), Malaysia"
+  },
+  {
+    "business": "Beauty Gems Atelier",
+    "founder": "Pornsit",
+    "website": "https://beautygems.co.th",
+    "handle": "beautygems_official",
+    "all_handles": [
+      "beautygems_official"
+    ],
+    "email": "info@beautygems.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Silom), Thailand"
+  },
+  {
+    "business": "Sirus Tanya High Jewelry",
+    "founder": "Sirus",
+    "website": "https://sirustanya.com",
+    "handle": "sirustanya_official",
+    "all_handles": [
+      "sirustanya_official"
+    ],
+    "email": "info@sirustanya.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Siam Paragon), Thailand"
+  },
+  {
+    "business": "So Perfect Jewelry",
+    "founder": "Krit",
+    "website": "https://soperfectjewelry.com",
+    "handle": "soperfectjewelryofficial",
+    "all_handles": [
+      "soperfectjewelryofficial"
+    ],
+    "email": "soperfectjewelry@hotmail.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Silom 26), Thailand"
+  },
+  {
+    "business": "The Canary Diamond Co",
+    "founder": "William",
+    "website": "https://thecanarydiamond.com",
+    "handle": "thecanarydiamond",
+    "all_handles": [
+      "thecanarydiamond"
+    ],
+    "email": "info@thecanarydiamond.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Singapore (Delfi Orchard)"
+  },
+  {
+    "business": "Gems Pavilion",
+    "founder": "Janjira",
+    "website": "https://gemspavilion.com",
+    "handle": "gemspavilion_official",
+    "all_handles": [
+      "gemspavilion_official"
+    ],
+    "email": "info@gemspavilion.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Siam Paragon / Silom), Thailand"
+  },
+  {
+    "business": "Rutana Fine Jewelry",
+    "founder": "Rutana",
+    "website": "https://rutanajewelry.com",
+    "handle": "rutanajewelry",
+    "all_handles": [
+      "rutanajewelry"
+    ],
+    "email": "info@rutanajewelry.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Riyadh (Olaya), Saudi Arabia"
+  },
+  {
+    "business": "Pattaraphan Jewelry",
+    "founder": "Pattaraphan",
+    "website": "https://pattaraphan.com",
+    "handle": "_pattaraphan_",
+    "all_handles": [
+      "_pattaraphan_"
+    ],
+    "email": "info@pattaraphan.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Bangkok (Charoenkrung), Thailand"
+  },
+  {
+    "business": "Tailored Jewel Bespoke",
+    "founder": "Dion",
+    "website": "https://tailoredjewel.com",
+    "handle": "tailoredjewel",
+    "all_handles": [
+      "tailoredjewel"
+    ],
+    "email": "info@tailoredjewel.com",
+    "field": "Fine Jewelry & Luxury Ateliers",
+    "tier": "High Ticket (\u00a32,000 - \u00a325,000)",
+    "location": "Kuala Lumpur (Mid Valley), Malaysia"
   }
 ]
