@@ -189,7 +189,16 @@ QUERIES = [
     'site:instagram.com/reel "calling all video editors" creator',
     'site:instagram.com/reel "comment work" "video editor"',
     'site:instagram.com/reel "comment editor" "video editor"',
-    'site:instagram.com/reel "only one spot left" "video editor"'
+    'site:instagram.com/reel "only one spot left" "video editor"',
+    # High-Yield Multilingual Creator Queries
+    'site:instagram.com/reel "editor chahiye"',
+    'site:instagram.com/reel "video editor chahiye"',
+    'site:instagram.com/reel "reels ke liye editor"',
+    'site:instagram.com/reel "youtube ke liye editor"',
+    'site:instagram.com/reel "podcast ke liye editor"',
+    'site:instagram.com/reel "busco editor de video"',
+    'site:instagram.com/reel "busco editor para reels"',
+    'site:instagram.com/reel "preciso de um editor de video"'
 ]
 
 DISQUALIFIED_TERMS = [
@@ -226,7 +235,8 @@ CREATOR_HIRING_TERMS = [
     "video editor for my","editor for my","edit for me",
     "need someone to edit","looking for someone to edit",
     "hiring video editors","calling cool video editors",
-    "apply today","comment work","comment editor"
+    "apply today","comment work","comment editor",
+    "editor chahiye","video editor chahiye","busco editor","preciso de editor"
 ]
 
 LOCATIONS = [
