@@ -1,0 +1,39 @@
+name: Find Instagram Video Editor Leads (Last 15 Days)
+
+on:
+  workflow_dispatch:        # Run manually from GitHub UI
+  schedule:
+    - cron: '0 */6 * * *'  # Auto-run every 6 hours
+
+jobs:
+  find-leads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run lead finder (last 15 days, strict rules)
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          # Override ctypes on Linux (not Windows)
+          sed -i 's/ctypes.windll.kernel32.SetThreadExecutionState.*//g' find_video_editor_leads.py
+          python find_video_editor_leads.py
+
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: video-editor-leads-${{ github.run_number }}
+          path: "*.csv"
+          retention-days: 30
