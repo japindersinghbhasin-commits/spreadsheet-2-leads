@@ -1,0 +1,39 @@
+name: 24/7 South India Leads Cloud Streamer (Runs When PC is Off)
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs automatically every 20 minutes in GitHub Cloud 24/7 (Even when PC is OFF or ASLEEP)
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+
+jobs:
+  cloud-stream:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run 24/7 Cloud Harvester
+        env:
+          GOOGLE_SHEETS_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbwMeoE2kST12L34QY7vjICa-8s6bZJpAzHBwLB9-c8CBbqRReyEapsY1Lc-MM_Cvk_L/exec"
+        run: |
+          python cloud_stream_south_india_both.py
+
+      - name: Commit and Push Updated Spreadsheets
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub 24/7 Cloud Harvester"
+          git add spreadsheet_7_south_india_furniture_leads.csv spreadsheet_8_south_india_real_estate_leads.csv
+          git commit -m "Cloud Auto-Sync: South India Furniture & Real Estate Leads" || echo "No new leads to commit"
+          git push origin main || echo "Push skipped or up-to-date"
